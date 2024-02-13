@@ -48,7 +48,61 @@ class BTSolver:
                 The bool is true if assignment is consistent, false otherwise.
     """
     def forwardChecking ( self ):
-        return ({},False)
+
+        
+
+        #save trail before constraint prop
+        # self.trail.placeTrailMarker()
+
+        RetDict = dict()
+        print("in fc")
+
+        AllVarList = self.network.getVariables()
+
+
+        for aVar in AllVarList:
+            # print(aVar.isAssigned())
+            if aVar.isAssigned():
+                #variable is assigned perf FC
+                AssignedVal = aVar.getAssignment()
+                # print("vAR" + str(aVar))
+
+                NeighborOfVar = self.network.getNeighborsOfVariable(aVar)
+                # print("neigh" + str(NeighborOfVar))
+
+                for aNeigh in NeighborOfVar:
+                    # print("neigh " + str(aNeigh))
+                    # print("val" + str(aNeigh.getValues()))
+
+                    if AssignedVal in aNeigh.getValues():
+                        #trail push before assign
+                        self.trail.push(aNeigh)
+
+                        #remove the assignedval from the neighbor
+                        aNeigh.removeValueFromDomain(AssignedVal)
+
+                        RetDict[aNeigh] = aNeigh.getDomain()
+
+                        if aNeigh.size() == 0:
+                            #undo the trail
+                            # self.trail.undo()
+
+                            print("false undo")
+
+                            return (RetDict,False)
+
+
+
+
+        # print("vars ")
+                        
+        # print(RetDict)
+                        
+        print("is true")
+        # self.trail.trailMarker.pop()
+        print(self.trail.trailMarker)
+
+        return (RetDict,True)
 
     # =================================================================
 	# Arc Consistency
