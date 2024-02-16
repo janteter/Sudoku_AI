@@ -23,6 +23,10 @@ class BTSolver:
         self.valHeuristics = val_sh
         self.cChecks = cc
 
+        #my mods
+        self.initFCCheck = True
+        self.assignedVar = None
+
     # ==================================================================
     # Consistency Checks
     # ==================================================================
@@ -55,41 +59,83 @@ class BTSolver:
         # self.trail.placeTrailMarker()
 
         RetDict = dict()
-        print("in fc")
+        # print("in fc")
+
 
         AllVarList = self.network.getVariables()
 
 
-        for aVar in AllVarList:
-            # print(aVar.isAssigned())
-            if aVar.isAssigned():
-                #variable is assigned perf FC
-                AssignedVal = aVar.getAssignment()
-                # print("vAR" + str(aVar))
+        if self.initFCCheck:
+            self.initFCCheck = False
 
-                NeighborOfVar = self.network.getNeighborsOfVariable(aVar)
-                # print("neigh" + str(NeighborOfVar))
+            for aVar in AllVarList:
+                # print(aVar.isAssigned())
+                if aVar.isAssigned():
 
-                for aNeigh in NeighborOfVar:
-                    # print("neigh " + str(aNeigh))
-                    # print("val" + str(aNeigh.getValues()))
+                    # if self.assignedVar is None:
+                    #     return ({},True)
 
-                    if AssignedVal in aNeigh.getValues():
-                        #trail push before assign
-                        self.trail.push(aNeigh)
+                    #variable is assigned perf FC
+                    AssignedVal = aVar.getAssignment()
+                    # print("vAR" + str(aVar))
 
-                        #remove the assignedval from the neighbor
-                        aNeigh.removeValueFromDomain(AssignedVal)
+                    NeighborOfVar = self.network.getNeighborsOfVariable(aVar)
+                    # print("neigh" + str(NeighborOfVar))
 
-                        RetDict[aNeigh] = aNeigh.getDomain()
+                    for aNeigh in NeighborOfVar:
+                        # print("neigh " + str(aNeigh))
+                        # print("val" + str(aNeigh.getValues()))
 
-                        if aNeigh.size() == 0:
-                            #undo the trail
-                            # self.trail.undo()
+                        if AssignedVal in aNeigh.getValues():
+                            #trail push before assign
+                            self.trail.push(aNeigh)
 
-                            print("false undo")
+                            #remove the assignedval from the neighbor
+                            aNeigh.removeValueFromDomain(AssignedVal)
 
-                            return (RetDict,False)
+                            RetDict[aNeigh] = aNeigh.getDomain()
+
+                            if aNeigh.size() == 0:
+                                #undo the trail
+                                # self.trail.undo()
+
+                                # print("false undo")
+
+                                return (RetDict,False)
+                            
+        else:
+            #not initial FCrun
+
+            aVar = self.assignedVar
+
+            #variable is assigned perf FC
+            AssignedVal = aVar.getAssignment()
+            # print("vAR" + str(aVar))
+
+            NeighborOfVar = self.network.getNeighborsOfVariable(aVar)
+            # print("neigh" + str(NeighborOfVar))
+
+            for aNeigh in NeighborOfVar:
+                # print("neigh " + str(aNeigh))
+                # print("val" + str(aNeigh.getValues()))
+
+                if AssignedVal in aNeigh.getValues():
+                    #trail push before assign
+                    self.trail.push(aNeigh)
+
+                    #remove the assignedval from the neighbor
+                    aNeigh.removeValueFromDomain(AssignedVal)
+
+                    RetDict[aNeigh] = aNeigh.getDomain()
+
+                    if aNeigh.size() == 0:
+                        #undo the trail
+                        # self.trail.undo()
+
+                        # print("false undo")
+
+                        return (RetDict,False)
+             
 
 
 
@@ -98,9 +144,9 @@ class BTSolver:
                         
         # print(RetDict)
                         
-        print("is true")
+        # print("is true")
         # self.trail.trailMarker.pop()
-        print(self.trail.trailMarker)
+        # print(self.trail.trailMarker)
 
         return (RetDict,True)
 
@@ -238,11 +284,15 @@ class BTSolver:
         # Variable Selection
         v = self.selectNextVariable()
 
+        
+
         # check if the assigment is complete
         if ( v == None ):
             # Success
             self.hassolution = True
             return 0
+        
+        
 
         # Attempt to assign a value
         for i in self.getNextValues( v ):
@@ -251,8 +301,13 @@ class BTSolver:
             self.trail.placeTrailMarker()
             self.trail.push( v )
 
+
             # Assign the value
             v.assignValue( i )
+
+            # print("the var",v)
+
+            self.assignedVar = v
 
             # Propagate constraints, check consistency, recur
             if self.checkConsistency():

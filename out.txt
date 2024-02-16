@@ -1,404 +1,4094 @@
-p:3	q:3
-0 0 0 | 0 0 0 | 0 0 0 
-0 0 5 | 0 9 0 | 0 0 0 
-0 0 0 | 0 0 0 | 0 0 0 
-- - - - - - - - - - - 
-3 0 0 | 0 0 6 | 0 0 0 
-0 6 0 | 0 0 0 | 0 0 0 
-0 0 0 | 0 0 0 | 0 0 0 
-- - - - - - - - - - - 
-0 0 0 | 9 0 0 | 0 0 0 
-0 0 0 | 0 0 0 | 0 0 0 
-0 0 0 | 0 0 7 | 0 0 0 
+p:3	q:4
+0 9 0 0 | 0 0 0 0 | 0 0 0 0 
+0 0 0 0 | 0 0 1 0 | 0 0 0 0 
+0 2 0 0 | 0 0 0 0 | 0 0 6 0 
+- - - - - - - - - - - - - - 
+0 0 0 0 | 0 2 A 0 | 0 0 5 0 
+0 0 0 0 | 0 0 0 0 | B 0 0 0 
+0 0 0 0 | 0 0 0 0 | 0 0 0 0 
+- - - - - - - - - - - - - - 
+B 0 0 0 | 0 0 0 0 | 0 0 0 0 
+0 0 0 0 | 0 0 0 0 | 0 0 0 0 
+0 0 0 0 | 0 0 0 5 | 0 0 0 0 
+- - - - - - - - - - - - - - 
+0 0 0 0 | 0 0 0 0 | 0 0 0 0 
+0 0 0 0 | 0 0 0 0 | 0 0 0 0 
+0 0 0 C | 0 0 0 0 | 0 0 0 0 
 
 in fc
-is true
-[]
-in fc
-is true
-[119]
-in fc
-is true
-[119, 138]
-in fc
-is true
-[119, 138, 156]
-in fc
-is true
-[119, 138, 156, 169]
-in fc
-is true
-[119, 138, 156, 169, 185]
-in fc
-is true
-[119, 138, 156, 169, 185, 199]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 282]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 282, 293]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 282, 293]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 282]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 282, 293]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 282, 293]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 282]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 282, 293]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 282, 293]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 282]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 282, 293]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 282, 293]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 281]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 281, 292]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 281, 292]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 281]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 281, 292]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 281, 292]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457]
-in fc
-false undo
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 465]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 465, 471]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 465, 471, 473]
-in fc
-false undo
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 467]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 467, 469]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459]
-in fc
-false undo
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 472]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558]
-in fc
-false undo
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561, 564]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561, 564, 565]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561, 564, 565, 567]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561, 564, 565, 567, 569]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561, 564, 565, 567, 569, 571]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561, 564, 565, 567, 569, 571, 572]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561, 564, 565, 567, 569, 571, 572, 573]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561, 564, 565, 567, 569, 571, 572, 573, 574]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561, 564, 565, 567, 569, 571, 572, 573, 574, 575]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561, 564, 565, 567, 569, 571, 572, 573, 574, 575, 576]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561, 564, 565, 567, 569, 571, 572, 573, 574, 575, 576, 577]
-in fc
-is true
-[119, 138, 156, 169, 185, 199, 212, 225, 238, 247, 260, 269, 274, 285, 297, 307, 317, 322, 329, 335, 343, 347, 352, 361, 369, 376, 388, 399, 408, 418, 427, 434, 441, 449, 457, 459, 465, 467, 474, 481, 487, 491, 494, 498, 502, 506, 509, 514, 518, 522, 527, 531, 536, 540, 543, 545, 548, 551, 554, 557, 558, 561, 564, 565, 567, 569, 571, 572, 573, 574, 575, 576, 577, 578]
-p:3	q:3
-1 2 3 | 4 5 8 | 6 7 9 
-4 7 5 | 6 9 1 | 2 3 8 
-6 8 9 | 2 7 3 | 1 4 5 
-- - - - - - - - - - - 
-3 1 2 | 5 4 6 | 8 9 7 
-5 6 4 | 7 8 9 | 3 1 2 
-7 9 8 | 1 3 2 | 4 5 6 
-- - - - - - - - - - - 
-2 3 1 | 9 6 5 | 7 8 4 
-8 5 7 | 3 2 4 | 9 6 1 
-9 4 6 | 8 1 7 | 5 2 3 
+recently selected 0
+tesst
+the var2  Name: v1 domain: {1,3,4,5,6,7,8,10,12}
+the var  Name: v1 domain: {1}
+in fc
+recently selected 287
+tesst
+the var2  Name: v3 domain: {3,4,5,6,7,8,10,11,12}
+the var  Name: v3 domain: {3}
+in fc
+recently selected 305
+tesst
+the var2  Name: v4 domain: {4,5,6,7,8,10,11}
+the var  Name: v4 domain: {4}
+in fc
+recently selected 331
+tesst
+the var2  Name: v5 domain: {2,5,6,7,8,10,11,12}
+the var  Name: v5 domain: {2}
+in fc
+recently selected 355
+tesst
+the var2  Name: v6 domain: {5,6,7,8,10,11,12}
+the var  Name: v6 domain: {5}
+in fc
+recently selected 370
+tesst
+the var2  Name: v7 domain: {6,7,8,11,12}
+the var  Name: v7 domain: {6}
+in fc
+recently selected 385
+tesst
+the var2  Name: v8 domain: {7,8,10,11,12}
+the var  Name: v8 domain: {7}
+in fc
+recently selected 398
+tesst
+the var2  Name: v9 domain: {8,10,12}
+the var  Name: v9 domain: {8}
+in fc
+recently selected 418
+tesst
+the var2  Name: v10 domain: {10,11,12}
+the var  Name: v10 domain: {10}
+in fc
+recently selected 437
+tesst
+the var2  Name: v11 domain: {11,12}
+the var  Name: v11 domain: {11}
+in fc
+recently selected 455
+tesst
+the var2  Name: v12 domain: {12}
+the var  Name: v12 domain: {12}
+in fc
+recently selected 467
+tesst
+the var2  Name: v13 domain: {5,6,7,8,10,12}
+the var  Name: v13 domain: {5}
+in fc
+recently selected 483
+tesst
+the var2  Name: v14 domain: {6,7,8,10,11,12}
+the var  Name: v14 domain: {6}
+in fc
+recently selected 499
+tesst
+the var2  Name: v15 domain: {7,8,10,11,12}
+the var  Name: v15 domain: {7}
+in fc
+recently selected 511
+tesst
+the var2  Name: v16 domain: {8,10,11}
+the var  Name: v16 domain: {8}
+in fc
+recently selected 529
+tesst
+the var2  Name: v17 domain: {3,4,9,10,11,12}
+the var  Name: v17 domain: {3}
+in fc
+recently selected 544
+tesst
+the var2  Name: v18 domain: {4,9,10,11,12}
+the var  Name: v18 domain: {4}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {9,10,11,12}
+the var  Name: v20 domain: {9}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 599
+the var  Name: v20 domain: {10}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 602
+the var  Name: v21 domain: {9}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 606
+the var  Name: v20 domain: {11}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 604
+the var  Name: v21 domain: {9}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 608
+the var  Name: v20 domain: {12}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 605
+the var  Name: v21 domain: {9}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 609
+the var  Name: v18 domain: {9}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {4,10,11,12}
+the var  Name: v20 domain: {4}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 599
+the var  Name: v20 domain: {10}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 602
+the var  Name: v21 domain: {4}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 606
+the var  Name: v20 domain: {11}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 604
+the var  Name: v21 domain: {4}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 608
+the var  Name: v20 domain: {12}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 605
+the var  Name: v21 domain: {4}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 609
+the var  Name: v18 domain: {10}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {4,9,11,12}
+the var  Name: v20 domain: {4}
+in fc
+recently selected 575
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 592
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 603
+the var  Name: v21 domain: {9}
+in fc
+recently selected 592
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 607
+the var  Name: v20 domain: {9}
+in fc
+recently selected 575
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 592
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 603
+the var  Name: v21 domain: {4}
+in fc
+recently selected 592
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 607
+the var  Name: v20 domain: {11}
+in fc
+recently selected 575
+tesst
+the var2  Name: v21 domain: {2,4,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {4,9}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 612
+the var  Name: v22 domain: {9}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 612
+the var  Name: v21 domain: {4}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 612
+the var  Name: v22 domain: {9}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v21 domain: {9}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 612
+the var  Name: v22 domain: {4}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v20 domain: {12}
+in fc
+recently selected 575
+tesst
+the var2  Name: v21 domain: {2,4,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 587
+tesst
+the var2  Name: v22 domain: {4,9}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 598
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 613
+the var  Name: v22 domain: {9}
+in fc
+recently selected 598
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 613
+the var  Name: v21 domain: {4}
+in fc
+recently selected 587
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 602
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 613
+the var  Name: v22 domain: {9}
+in fc
+recently selected 602
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 617
+the var  Name: v21 domain: {9}
+in fc
+recently selected 587
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 602
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 613
+the var  Name: v22 domain: {4}
+in fc
+recently selected 602
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 617
+the var  Name: v18 domain: {11}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {4,9,10,12}
+the var  Name: v20 domain: {4}
+in fc
+recently selected 576
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 604
+the var  Name: v21 domain: {9}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 608
+the var  Name: v20 domain: {9}
+in fc
+recently selected 576
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 604
+the var  Name: v21 domain: {4}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 608
+the var  Name: v20 domain: {10}
+in fc
+recently selected 576
+tesst
+the var2  Name: v21 domain: {2,4,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {4,9}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 611
+the var  Name: v22 domain: {9}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 611
+the var  Name: v21 domain: {4}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 611
+the var  Name: v22 domain: {9}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v21 domain: {9}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 611
+the var  Name: v22 domain: {4}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v20 domain: {12}
+in fc
+recently selected 576
+tesst
+the var2  Name: v21 domain: {2,4,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {4,9}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 599
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 614
+the var  Name: v22 domain: {9}
+in fc
+recently selected 599
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 614
+the var  Name: v21 domain: {4}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 614
+the var  Name: v22 domain: {9}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 618
+the var  Name: v21 domain: {9}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 614
+the var  Name: v22 domain: {4}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 618
+the var  Name: v18 domain: {12}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {4,9,10,11}
+the var  Name: v20 domain: {4}
+in fc
+recently selected 577
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 605
+the var  Name: v21 domain: {9}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 609
+the var  Name: v20 domain: {9}
+in fc
+recently selected 577
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 605
+the var  Name: v21 domain: {4}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 609
+the var  Name: v20 domain: {10}
+in fc
+recently selected 577
+tesst
+the var2  Name: v21 domain: {2,4,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {4,9}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 612
+the var  Name: v22 domain: {9}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 612
+the var  Name: v21 domain: {4}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 612
+the var  Name: v22 domain: {9}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v21 domain: {9}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 612
+the var  Name: v22 domain: {4}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v20 domain: {11}
+in fc
+recently selected 577
+tesst
+the var2  Name: v21 domain: {2,4,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {4,9}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 599
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 614
+the var  Name: v22 domain: {9}
+in fc
+recently selected 599
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 614
+the var  Name: v21 domain: {4}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 614
+the var  Name: v22 domain: {9}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 618
+the var  Name: v21 domain: {9}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 614
+the var  Name: v22 domain: {4}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 618
+the var  Name: v17 domain: {4}
+in fc
+recently selected 544
+tesst
+the var2  Name: v18 domain: {3,9,10,11,12}
+the var  Name: v18 domain: {3}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {9,10,11,12}
+the var  Name: v20 domain: {9}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 599
+the var  Name: v20 domain: {10}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 602
+the var  Name: v21 domain: {9}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 606
+the var  Name: v20 domain: {11}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 604
+the var  Name: v21 domain: {9}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 608
+the var  Name: v20 domain: {12}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 605
+the var  Name: v21 domain: {9}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 609
+the var  Name: v18 domain: {9}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {3,10,11,12}
+the var  Name: v20 domain: {3}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 599
+the var  Name: v20 domain: {10}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 602
+the var  Name: v21 domain: {3}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 606
+the var  Name: v20 domain: {11}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 604
+the var  Name: v21 domain: {3}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 608
+the var  Name: v20 domain: {12}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 605
+the var  Name: v21 domain: {3}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 609
+the var  Name: v18 domain: {10}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {3,9,11,12}
+the var  Name: v20 domain: {3}
+in fc
+recently selected 575
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 592
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 603
+the var  Name: v21 domain: {9}
+in fc
+recently selected 592
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 607
+the var  Name: v20 domain: {9}
+in fc
+recently selected 575
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 592
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 603
+the var  Name: v21 domain: {3}
+in fc
+recently selected 592
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 607
+the var  Name: v20 domain: {11}
+in fc
+recently selected 575
+tesst
+the var2  Name: v21 domain: {2,3,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {3,9}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 612
+the var  Name: v22 domain: {9}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 612
+the var  Name: v21 domain: {3}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 612
+the var  Name: v22 domain: {9}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v21 domain: {9}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 612
+the var  Name: v22 domain: {3}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v20 domain: {12}
+in fc
+recently selected 575
+tesst
+the var2  Name: v21 domain: {2,3,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 587
+tesst
+the var2  Name: v22 domain: {3,9}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 598
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 613
+the var  Name: v22 domain: {9}
+in fc
+recently selected 598
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 613
+the var  Name: v21 domain: {3}
+in fc
+recently selected 587
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 602
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 613
+the var  Name: v22 domain: {9}
+in fc
+recently selected 602
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 617
+the var  Name: v21 domain: {9}
+in fc
+recently selected 587
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 602
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 613
+the var  Name: v22 domain: {3}
+in fc
+recently selected 602
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 617
+the var  Name: v18 domain: {11}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {3,9,10,12}
+the var  Name: v20 domain: {3}
+in fc
+recently selected 576
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 604
+the var  Name: v21 domain: {9}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 608
+the var  Name: v20 domain: {9}
+in fc
+recently selected 576
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 604
+the var  Name: v21 domain: {3}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 608
+the var  Name: v20 domain: {10}
+in fc
+recently selected 576
+tesst
+the var2  Name: v21 domain: {2,3,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {3,9}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 611
+the var  Name: v22 domain: {9}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 611
+the var  Name: v21 domain: {3}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 611
+the var  Name: v22 domain: {9}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v21 domain: {9}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 611
+the var  Name: v22 domain: {3}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v20 domain: {12}
+in fc
+recently selected 576
+tesst
+the var2  Name: v21 domain: {2,3,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {3,9}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 599
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 614
+the var  Name: v22 domain: {9}
+in fc
+recently selected 599
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 614
+the var  Name: v21 domain: {3}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 614
+the var  Name: v22 domain: {9}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 618
+the var  Name: v21 domain: {9}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 614
+the var  Name: v22 domain: {3}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 618
+the var  Name: v18 domain: {12}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {3,9,10,11}
+the var  Name: v20 domain: {3}
+in fc
+recently selected 577
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 605
+the var  Name: v21 domain: {9}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 609
+the var  Name: v20 domain: {9}
+in fc
+recently selected 577
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 605
+the var  Name: v21 domain: {3}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 609
+the var  Name: v20 domain: {10}
+in fc
+recently selected 577
+tesst
+the var2  Name: v21 domain: {2,3,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {3,9}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 612
+the var  Name: v22 domain: {9}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 612
+the var  Name: v21 domain: {3}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 612
+the var  Name: v22 domain: {9}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v21 domain: {9}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 612
+the var  Name: v22 domain: {3}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v20 domain: {11}
+in fc
+recently selected 577
+tesst
+the var2  Name: v21 domain: {2,3,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {3,9}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 599
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 614
+the var  Name: v22 domain: {9}
+in fc
+recently selected 599
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 614
+the var  Name: v21 domain: {3}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 614
+the var  Name: v22 domain: {9}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 618
+the var  Name: v21 domain: {9}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 614
+the var  Name: v22 domain: {3}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 618
+the var  Name: v17 domain: {9}
+in fc
+recently selected 544
+tesst
+the var2  Name: v18 domain: {3,4,10,11,12}
+the var  Name: v18 domain: {3}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {4,10,11,12}
+the var  Name: v20 domain: {4}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 599
+the var  Name: v20 domain: {10}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 602
+the var  Name: v21 domain: {4}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 606
+the var  Name: v20 domain: {11}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 604
+the var  Name: v21 domain: {4}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 608
+the var  Name: v20 domain: {12}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 605
+the var  Name: v21 domain: {4}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 609
+the var  Name: v18 domain: {4}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {3,10,11,12}
+the var  Name: v20 domain: {3}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 599
+the var  Name: v20 domain: {10}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 602
+the var  Name: v21 domain: {3}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 606
+the var  Name: v20 domain: {11}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 604
+the var  Name: v21 domain: {3}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 608
+the var  Name: v20 domain: {12}
+in fc
+recently selected 582
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 605
+the var  Name: v21 domain: {3}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 609
+the var  Name: v18 domain: {10}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {3,4,11,12}
+the var  Name: v20 domain: {3}
+in fc
+recently selected 575
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 592
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 603
+the var  Name: v21 domain: {4}
+in fc
+recently selected 592
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 607
+the var  Name: v20 domain: {4}
+in fc
+recently selected 575
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 592
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 603
+the var  Name: v21 domain: {3}
+in fc
+recently selected 592
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 607
+the var  Name: v20 domain: {11}
+in fc
+recently selected 575
+tesst
+the var2  Name: v21 domain: {2,3,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {3,4}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 612
+the var  Name: v22 domain: {4}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 612
+the var  Name: v21 domain: {3}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 612
+the var  Name: v22 domain: {4}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v21 domain: {4}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 612
+the var  Name: v22 domain: {3}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v20 domain: {12}
+in fc
+recently selected 575
+tesst
+the var2  Name: v21 domain: {2,3,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 587
+tesst
+the var2  Name: v22 domain: {3,4}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 598
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 613
+the var  Name: v22 domain: {4}
+in fc
+recently selected 598
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 613
+the var  Name: v21 domain: {3}
+in fc
+recently selected 587
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 602
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 613
+the var  Name: v22 domain: {4}
+in fc
+recently selected 602
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 617
+the var  Name: v21 domain: {4}
+in fc
+recently selected 587
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 602
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 613
+the var  Name: v22 domain: {3}
+in fc
+recently selected 602
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 617
+the var  Name: v18 domain: {11}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {3,4,10,12}
+the var  Name: v20 domain: {3}
+in fc
+recently selected 576
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 604
+the var  Name: v21 domain: {4}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 608
+the var  Name: v20 domain: {4}
+in fc
+recently selected 576
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 604
+the var  Name: v21 domain: {3}
+in fc
+recently selected 593
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 608
+the var  Name: v20 domain: {10}
+in fc
+recently selected 576
+tesst
+the var2  Name: v21 domain: {2,3,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {3,4}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 611
+the var  Name: v22 domain: {4}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 611
+the var  Name: v21 domain: {3}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 611
+the var  Name: v22 domain: {4}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v21 domain: {4}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 611
+the var  Name: v22 domain: {3}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v20 domain: {12}
+in fc
+recently selected 576
+tesst
+the var2  Name: v21 domain: {2,3,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {3,4}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 599
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 614
+the var  Name: v22 domain: {4}
+in fc
+recently selected 599
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 614
+the var  Name: v21 domain: {3}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 614
+the var  Name: v22 domain: {4}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 618
+the var  Name: v21 domain: {4}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 614
+the var  Name: v22 domain: {3}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 618
+the var  Name: v18 domain: {12}
+in fc
+recently selected 564
+tesst
+the var2  Name: v20 domain: {3,4,10,11}
+the var  Name: v20 domain: {3}
+in fc
+recently selected 577
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 605
+the var  Name: v21 domain: {4}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 609
+the var  Name: v20 domain: {4}
+in fc
+recently selected 577
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 605
+the var  Name: v21 domain: {3}
+in fc
+recently selected 594
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 609
+the var  Name: v20 domain: {10}
+in fc
+recently selected 577
+tesst
+the var2  Name: v21 domain: {2,3,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {3,4}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 612
+the var  Name: v22 domain: {4}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 612
+the var  Name: v21 domain: {3}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 612
+the var  Name: v22 domain: {4}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v21 domain: {4}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 612
+the var  Name: v22 domain: {3}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v20 domain: {11}
+in fc
+recently selected 577
+tesst
+the var2  Name: v21 domain: {2,3,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {3,4}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 599
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 614
+the var  Name: v22 domain: {4}
+in fc
+recently selected 599
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 614
+the var  Name: v21 domain: {3}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 614
+the var  Name: v22 domain: {4}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 618
+the var  Name: v21 domain: {4}
+in fc
+recently selected 588
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 614
+the var  Name: v22 domain: {3}
+in fc
+recently selected 603
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 618
+the var  Name: v17 domain: {10}
+in fc
+recently selected 544
+tesst
+the var2  Name: v18 domain: {3,4,9,11,12}
+the var  Name: v18 domain: {3}
+in fc
+recently selected 556
+tesst
+the var2  Name: v20 domain: {4,9,11,12}
+the var  Name: v20 domain: {4}
+in fc
+recently selected 574
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 602
+the var  Name: v21 domain: {9}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 606
+the var  Name: v20 domain: {9}
+in fc
+recently selected 574
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 602
+the var  Name: v21 domain: {4}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 606
+the var  Name: v20 domain: {11}
+in fc
+recently selected 574
+tesst
+the var2  Name: v21 domain: {2,4,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {4,9}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 611
+the var  Name: v22 domain: {9}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 611
+the var  Name: v21 domain: {4}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 611
+the var  Name: v22 domain: {9}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v21 domain: {9}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 611
+the var  Name: v22 domain: {4}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v20 domain: {12}
+in fc
+recently selected 574
+tesst
+the var2  Name: v21 domain: {2,4,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {4,9}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 612
+the var  Name: v22 domain: {9}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 612
+the var  Name: v21 domain: {4}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 612
+the var  Name: v22 domain: {9}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v21 domain: {9}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 612
+the var  Name: v22 domain: {4}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v18 domain: {4}
+in fc
+recently selected 556
+tesst
+the var2  Name: v20 domain: {3,9,11,12}
+the var  Name: v20 domain: {3}
+in fc
+recently selected 574
+tesst
+the var2  Name: v21 domain: {2,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {9}
+the var  Name: v22 domain: {9}
+in fc
+recently selected 602
+the var  Name: v21 domain: {9}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 606
+the var  Name: v20 domain: {9}
+in fc
+recently selected 574
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 602
+the var  Name: v21 domain: {3}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 606
+the var  Name: v20 domain: {11}
+in fc
+recently selected 574
+tesst
+the var2  Name: v21 domain: {2,3,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {3,9}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 611
+the var  Name: v22 domain: {9}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 611
+the var  Name: v21 domain: {3}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 611
+the var  Name: v22 domain: {9}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v21 domain: {9}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 611
+the var  Name: v22 domain: {3}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v20 domain: {12}
+in fc
+recently selected 574
+tesst
+the var2  Name: v21 domain: {2,3,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {3,9}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 612
+the var  Name: v22 domain: {9}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 612
+the var  Name: v21 domain: {3}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 612
+the var  Name: v22 domain: {9}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v21 domain: {9}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 612
+the var  Name: v22 domain: {3}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v18 domain: {9}
+in fc
+recently selected 556
+tesst
+the var2  Name: v20 domain: {3,4,11,12}
+the var  Name: v20 domain: {3}
+in fc
+recently selected 574
+tesst
+the var2  Name: v21 domain: {2,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {4}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 602
+the var  Name: v21 domain: {4}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 606
+the var  Name: v20 domain: {4}
+in fc
+recently selected 574
+tesst
+the var2  Name: v21 domain: {2,3}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {3}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 602
+the var  Name: v21 domain: {3}
+in fc
+recently selected 591
+tesst
+the var2  Name: v22 domain: {2}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 606
+the var  Name: v20 domain: {11}
+in fc
+recently selected 574
+tesst
+the var2  Name: v21 domain: {2,3,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {3,4}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 611
+the var  Name: v22 domain: {4}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 611
+the var  Name: v21 domain: {3}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 611
+the var  Name: v22 domain: {4}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v21 domain: {4}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 611
+the var  Name: v22 domain: {3}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v20 domain: {12}
+in fc
+recently selected 574
+tesst
+the var2  Name: v21 domain: {2,3,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {3,4}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 612
+the var  Name: v22 domain: {4}
+in fc
+recently selected 597
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 612
+the var  Name: v21 domain: {3}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 612
+the var  Name: v22 domain: {4}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v21 domain: {4}
+in fc
+recently selected 586
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 612
+the var  Name: v22 domain: {3}
+in fc
+recently selected 601
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 616
+the var  Name: v18 domain: {11}
+in fc
+recently selected 556
+tesst
+the var2  Name: v20 domain: {3,4,9,12}
+the var  Name: v20 domain: {3}
+in fc
+recently selected 568
+tesst
+the var2  Name: v21 domain: {2,4,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {4,9}
+the var  Name: v22 domain: {4}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 611
+the var  Name: v22 domain: {9}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 611
+the var  Name: v21 domain: {4}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 611
+the var  Name: v22 domain: {9}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v21 domain: {9}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 611
+the var  Name: v22 domain: {4}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v20 domain: {4}
+in fc
+recently selected 568
+tesst
+the var2  Name: v21 domain: {2,3,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {3,9}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 611
+the var  Name: v22 domain: {9}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 611
+the var  Name: v21 domain: {3}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,9}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {9}
+the var  Name: v23 domain: {9}
+in fc
+recently selected 611
+the var  Name: v22 domain: {9}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v21 domain: {9}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 611
+the var  Name: v22 domain: {3}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v20 domain: {9}
+in fc
+recently selected 568
+tesst
+the var2  Name: v21 domain: {2,3,4}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {3,4}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 611
+the var  Name: v22 domain: {4}
+in fc
+recently selected 596
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 611
+the var  Name: v21 domain: {3}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,4}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {4}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 611
+the var  Name: v22 domain: {4}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v21 domain: {4}
+in fc
+recently selected 585
+tesst
+the var2  Name: v22 domain: {2,3}
+the var  Name: v22 domain: {2}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {3}
+the var  Name: v23 domain: {3}
+in fc
+recently selected 611
+the var  Name: v22 domain: {3}
+in fc
+recently selected 600
+tesst
+the var2  Name: v23 domain: {2}
+the var  Name: v23 domain: {2}
+in fc
+recently selected 615
+the var  Name: v20 domain: {12}
+in fc
+recently selected 568
+tesst
+the var2  Name: v21 domain: {2,3,4,9}
+the var  Name: v21 domain: {2}
+in fc
+recently selected 580
+tesst
+the var2  Name: v22 domain: {3,4,9}
+the var  Name: v22 domain: {3}
+in fc
+recently selected 591
+tesst
+the var2  Name: v23 domain: {4,9}
+the var  Name: v23 domain: {4}
+in fc
+recently selected 606
+tesst
+the var2  Name: v24 domain: {9}
+the var  Name: v24 domain: {9}
+in fc
+recently selected 619
+tesst
+the var2  Name: v25 domain: {10,12}
+the var  Name: v25 domain: {10}
+in fc
+recently selected 632
+tesst
+the var2  Name: v27 domain: {11,12}
+the var  Name: v27 domain: {11}
+in fc
+recently selected 642
+the var  Name: v27 domain: {12}
+in fc
+recently selected 642
+tesst
+the var2  Name: v28 domain: {11}
+the var  Name: v28 domain: {11}
+in fc
+recently selected 649
+tesst
+the var2  Name: v29 domain: {3,4,8,9}
+the var  Name: v29 domain: {3}
+in fc
+recently selected 654
+tesst
+the var2  Name: v30 domain: {4,8,9}
+the var  Name: v30 domain: {4}
+in fc
+recently selected 667
+tesst
+the var2  Name: v31 domain: {8,9}
+the var  Name: v31 domain: {8}
+in fc
+recently selected 678
+tesst
+the var2  Name: v32 domain: {9}
+the var  Name: v32 domain: {9}
+in fc
+recently selected 688
+tesst
+the var2  Name: v33 domain: {1,5,7}
+the var  Name: v33 domain: {1}
+in fc
+recently selected 697
+tesst
+the var2  Name: v34 domain: {5,7}
+the var  Name: v34 domain: {5}
+in fc
+recently selected 708
+tesst
+the var2  Name: v36 domain: {7}
+the var  Name: v36 domain: {7}
+in fc
+recently selected 715
+tesst
+the var2  Name: v37 domain: {3,4,6,7,8,9,12}
+the var  Name: v37 domain: {3}
+in fc
+recently selected 725
+tesst
+the var2  Name: v38 domain: {1,4,7,8,11,12}
+the var  Name: v38 domain: {1}
+in fc
+recently selected 742
+tesst
+the var2  Name: v39 domain: {4,6,8,9,11}
+the var  Name: v39 domain: {4}
+in fc
+recently selected 761
+tesst
+the var2  Name: v40 domain: {6,7,9}
+the var  Name: v40 domain: {6}
+in fc
+recently selected 779
+tesst
+the var2  Name: v41 domain: {7,8,9,11,12}
+the var  Name: v41 domain: {7}
+in fc
+recently selected 796
+tesst
+the var2  Name: v44 domain: {8,11}
+the var  Name: v44 domain: {8}
+in fc
+recently selected 811
+the var  Name: v44 domain: {11}
+in fc
+recently selected 811
+tesst
+the var2  Name: v45 domain: {9,12}
+the var  Name: v45 domain: {9}
+in fc
+recently selected 819
+tesst
+the var2  Name: v46 domain: {8,12}
+the var  Name: v46 domain: {8}
+in fc
+recently selected 832
+the var  Name: v46 domain: {12}
+in fc
+recently selected 832
+tesst
+the var2  Name: v48 domain: {8}
+the var  Name: v48 domain: {8}
+in fc
+recently selected 843
+tesst
+the var2  Name: v49 domain: {2,7,8,9,12}
+the var  Name: v49 domain: {2}
+in fc
+recently selected 856
+tesst
+the var2  Name: v50 domain: {5,7,8,10,12}
+the var  Name: v50 domain: {5}
+in fc
+recently selected 870
+tesst
+the var2  Name: v51 domain: {8,9,10}
+the var  Name: v51 domain: {8}
+in fc
+recently selected 883
+tesst
+the var2  Name: v52 domain: {7,9,10}
+the var  Name: v52 domain: {7}
+in fc
+recently selected 896
+tesst
+the var2  Name: v53 domain: {1,4,6,9,12}
+the var  Name: v53 domain: {1}
+in fc
+recently selected 907
+tesst
+the var2  Name: v54 domain: {3,6,9,12}
+the var  Name: v54 domain: {3}
+in fc
+recently selected 922
+tesst
+the var2  Name: v55 domain: {4,9,12}
+the var  Name: v55 domain: {4}
+in fc
+recently selected 936
+tesst
+the var2  Name: v56 domain: {6}
+the var  Name: v56 domain: {6}
+in fc
+recently selected 949
+the var  Name: v55 domain: {9}
+in fc
+recently selected 936
+tesst
+the var2  Name: v56 domain: {4,6}
+the var  Name: v56 domain: {4}
+in fc
+recently selected 946
+tesst
+the var2  Name: v58 domain: {6}
+the var  Name: v58 domain: {6}
+in fc
+recently selected 957
+tesst
+the var2  Name: v59 domain: {10}
+the var  Name: v59 domain: {10}
+in fc
+recently selected 968
+the var  Name: v56 domain: {6}
+in fc
+recently selected 946
+tesst
+the var2  Name: v58 domain: {4}
+the var  Name: v58 domain: {4}
+in fc
+recently selected 957
+tesst
+the var2  Name: v59 domain: {10}
+the var  Name: v59 domain: {10}
+in fc
+recently selected 968
+the var  Name: v55 domain: {12}
+in fc
+recently selected 936
+tesst
+the var2  Name: v56 domain: {4,6}
+the var  Name: v56 domain: {4}
+in fc
+recently selected 945
+tesst
+the var2  Name: v58 domain: {6}
+the var  Name: v58 domain: {6}
+in fc
+recently selected 956
+tesst
+the var2  Name: v59 domain: {10}
+the var  Name: v59 domain: {10}
+in fc
+recently selected 967
+the var  Name: v56 domain: {6}
+in fc
+recently selected 945
+tesst
+the var2  Name: v58 domain: {4}
+the var  Name: v58 domain: {4}
+in fc
+recently selected 956
+tesst
+the var2  Name: v59 domain: {10}
+the var  Name: v59 domain: {10}
+in fc
+recently selected 967
+the var  Name: v54 domain: {6}
+in fc
+recently selected 922
+tesst
+the var2  Name: v55 domain: {3,4,9,12}
+the var  Name: v55 domain: {3}
+in fc
+recently selected 935
+tesst
+the var2  Name: v56 domain: {4}
+the var  Name: v56 domain: {4}
+in fc
+recently selected 948
+the var  Name: v55 domain: {4}
+in fc
+recently selected 935
+the var  Name: v55 domain: {9}
+in fc
+recently selected 935
+tesst
+the var2  Name: v56 domain: {3,4}
+the var  Name: v56 domain: {3}
+in fc
+recently selected 945
+tesst
+the var2  Name: v58 domain: {4}
+the var  Name: v58 domain: {4}
+in fc
+recently selected 956
+tesst
+the var2  Name: v59 domain: {10}
+the var  Name: v59 domain: {10}
+in fc
+recently selected 967
+the var  Name: v56 domain: {4}
+in fc
+recently selected 945
+the var  Name: v55 domain: {12}
+in fc
+recently selected 935
+tesst
+the var2  Name: v56 domain: {3,4}
+the var  Name: v56 domain: {3}
+in fc
+recently selected 944
+tesst
+the var2  Name: v58 domain: {4}
+the var  Name: v58 domain: {4}
+in fc
+recently selected 955
+tesst
+the var2  Name: v59 domain: {10}
+the var  Name: v59 domain: {10}
+in fc
+recently selected 966
+the var  Name: v56 domain: {4}
+in fc
+recently selected 944
+the var  Name: v54 domain: {9}
+in fc
+recently selected 922
+tesst
+the var2  Name: v55 domain: {3,4,12}
+the var  Name: v55 domain: {3}
+in fc
+recently selected 933
+tesst
+the var2  Name: v56 domain: {4,6}
+the var  Name: v56 domain: {4}
+in fc
+recently selected 946
+tesst
+the var2  Name: v58 domain: {6}
+the var  Name: v58 domain: {6}
+in fc
+recently selected 957
+tesst
+the var2  Name: v59 domain: {10}
+the var  Name: v59 domain: {10}
+in fc
+recently selected 968
+the var  Name: v56 domain: {6}
+in fc
+recently selected 946
+tesst
+the var2  Name: v58 domain: {4}
+the var  Name: v58 domain: {4}
+in fc
+recently selected 957
+tesst
+the var2  Name: v59 domain: {10}
+the var  Name: v59 domain: {10}
+in fc
+recently selected 968
+the var  Name: v55 domain: {4}
+in fc
+recently selected 933
+tesst
+the var2  Name: v56 domain: {3,6}
+the var  Name: v56 domain: {3}
+in fc
+recently selected 946
+tesst
+the var2  Name: v58 domain: {6}
+the var  Name: v58 domain: {6}
+in fc
+recently selected 957
+tesst
+the var2  Name: v59 domain: {10}
+the var  Name: v59 domain: {10}
+in fc
+recently selected 968
+the var  Name: v56 domain: {6}
+in fc
+recently selected 946
+the var  Name: v55 domain: {12}
+in fc
+recently selected 933
+tesst
+the var2  Name: v56 domain: {3,4,6}
+the var  Name: v56 domain: {3}
+in fc
+recently selected 942
+tesst
+the var2  Name: v58 domain: {4,6}
+the var  Name: v58 domain: {4}
+in fc
+recently selected 953
+tesst
+the var2  Name: v59 domain: {10}
+the var  Name: v59 domain: {10}
+in fc
+recently selected 964
+tesst
+the var2  Name: v60 domain: {6}
+the var  Name: v60 domain: {6}
+in fc
+recently selected 975
+tesst
+the var2  Name: v61 domain: {9,12}
+the var  Name: v61 domain: {9}
+in fc
+recently selected 985
+tesst
+the var2  Name: v62 domain: {10,11,12}
+the var  Name: v62 domain: {10}
+in fc
+recently selected 993
+the var  Name: v62 domain: {11}
+in fc
+recently selected 993
+tesst
+the var2  Name: v63 domain: {10}
+the var  Name: v63 domain: {10}
+in fc
+recently selected 998
+the var  Name: v62 domain: {12}
+in fc
+recently selected 993
+tesst
+the var2  Name: v63 domain: {10,11}
+the var  Name: v63 domain: {10}
+in fc
+recently selected 997
+the var  Name: v63 domain: {11}
+in fc
+recently selected 997
+tesst
+the var2  Name: v64 domain: {10}
+the var  Name: v64 domain: {10}
+in fc
+recently selected 1001
+tesst
+the var2  Name: v65 domain: {4,5,6,8}
+the var  Name: v65 domain: {4}
+in fc
+recently selected 1007
+tesst
+the var2  Name: v66 domain: {6,8}
+the var  Name: v66 domain: {6}
+in fc
+recently selected 1016
+tesst
+the var2  Name: v67 domain: {5}
+the var  Name: v67 domain: {5}
+in fc
+recently selected 1024
+tesst
+the var2  Name: v68 domain: {8}
+the var  Name: v68 domain: {8}
+in fc
+recently selected 1028
+tesst
+the var2  Name: v69 domain: {3,7}
+the var  Name: v69 domain: {3}
+in fc
+recently selected 1034
+tesst
+the var2  Name: v70 domain: {1,2,7}
+the var  Name: v70 domain: {1}
+in fc
+recently selected 1043
+tesst
+the var2  Name: v71 domain: {2,7}
+the var  Name: v71 domain: {2}
+in fc
+recently selected 1052
+the var  Name: v71 domain: {7}
+in fc
+recently selected 1052
+tesst
+the var2  Name: v72 domain: {2}
+the var  Name: v72 domain: {2}
+in fc
+recently selected 1059
+tesst
+the var2  Name: v74 domain: {3,4,7,8,10}
+the var  Name: v74 domain: {3}
+in fc
+recently selected 1066
+tesst
+the var2  Name: v75 domain: {1,2,5,6,9,10}
+the var  Name: v75 domain: {1}
+in fc
+recently selected 1079
+tesst
+the var2  Name: v76 domain: {2,5,9}
+the var  Name: v76 domain: {2}
+in fc
+recently selected 1092
+tesst
+the var2  Name: v77 domain: {6,8,9,12}
+the var  Name: v77 domain: {6}
+in fc
+recently selected 1103
+tesst
+the var2  Name: v78 domain: {7,8,10,12}
+the var  Name: v78 domain: {7}
+in fc
+recently selected 1113
+tesst
+the var2  Name: v79 domain: {4,9}
+the var  Name: v79 domain: {4}
+in fc
+recently selected 1124
+tesst
+the var2  Name: v80 domain: {10}
+the var  Name: v80 domain: {10}
+in fc
+recently selected 1134
+tesst
+the var2  Name: v81 domain: {5,12}
+the var  Name: v81 domain: {5}
+in fc
+recently selected 1143
+the var  Name: v81 domain: {12}
+in fc
+recently selected 1143
+tesst
+the var2  Name: v82 domain: {8,9}
+the var  Name: v82 domain: {8}
+in fc
+recently selected 1151
+tesst
+the var2  Name: v83 domain: {9}
+the var  Name: v83 domain: {9}
+in fc
+recently selected 1160
+tesst
+the var2  Name: v84 domain: {5}
+the var  Name: v84 domain: {5}
+in fc
+recently selected 1168
+tesst
+the var2  Name: v85 domain: {4,6,7,8,12}
+the var  Name: v85 domain: {4}
+in fc
+recently selected 1174
+tesst
+the var2  Name: v86 domain: {7,8,10}
+the var  Name: v86 domain: {7}
+in fc
+recently selected 1183
+tesst
+the var2  Name: v87 domain: {5,6,9,10}
+the var  Name: v87 domain: {5}
+in fc
+recently selected 1191
+tesst
+the var2  Name: v88 domain: {9}
+the var  Name: v88 domain: {9}
+in fc
+recently selected 1196
+the var  Name: v87 domain: {6}
+in fc
+recently selected 1191
+tesst
+the var2  Name: v88 domain: {5,9}
+the var  Name: v88 domain: {5}
+in fc
+recently selected 1199
+tesst
+the var2  Name: v89 domain: {8,9,11,12}
+the var  Name: v89 domain: {8}
+in fc
+recently selected 1202
+tesst
+the var2  Name: v90 domain: {1,3,12}
+the var  Name: v90 domain: {1}
+in fc
+recently selected 1209
+tesst
+the var2  Name: v91 domain: {2,3,9,11}
+the var  Name: v91 domain: {2}
+in fc
+recently selected 1217
+the var  Name: v91 domain: {3}
+in fc
+recently selected 1217
+tesst
+the var2  Name: v92 domain: {2}
+the var  Name: v92 domain: {2}
+in fc
+recently selected 1225
+the var  Name: v91 domain: {9}
+in fc
+recently selected 1217
+tesst
+the var2  Name: v92 domain: {2}
+the var  Name: v92 domain: {2}
+in fc
+recently selected 1223
+tesst
+the var2  Name: v93 domain: {10}
+the var  Name: v93 domain: {10}
+in fc
+recently selected 1230
+tesst
+the var2  Name: v94 domain: {11}
+the var  Name: v94 domain: {11}
+in fc
+recently selected 1237
+tesst
+the var2  Name: v95 domain: {3}
+the var  Name: v95 domain: {3}
+in fc
+recently selected 1244
+the var  Name: v91 domain: {11}
+in fc
+recently selected 1217
+tesst
+the var2  Name: v92 domain: {2}
+the var  Name: v92 domain: {2}
+in fc
+recently selected 1225
+the var  Name: v90 domain: {3}
+in fc
+recently selected 1209
+tesst
+the var2  Name: v91 domain: {2,9,11}
+the var  Name: v91 domain: {2}
+in fc
+recently selected 1218
+tesst
+the var2  Name: v92 domain: {1}
+the var  Name: v92 domain: {1}
+in fc
+recently selected 1226
+the var  Name: v91 domain: {9}
+in fc
+recently selected 1218
+tesst
+the var2  Name: v92 domain: {1,2}
+the var  Name: v92 domain: {1}
+in fc
+recently selected 1224
+tesst
+the var2  Name: v93 domain: {10}
+the var  Name: v93 domain: {10}
+in fc
+recently selected 1231
+tesst
+the var2  Name: v94 domain: {2,11}
+the var  Name: v94 domain: {2}
+in fc
+recently selected 1238
+the var  Name: v94 domain: {11}
+in fc
+recently selected 1238
+the var  Name: v92 domain: {2}
+in fc
+recently selected 1224
+tesst
+the var2  Name: v93 domain: {10}
+the var  Name: v93 domain: {10}
+in fc
+recently selected 1231
+tesst
+the var2  Name: v94 domain: {11}
+the var  Name: v94 domain: {11}
+in fc
+recently selected 1238
+tesst
+the var2  Name: v95 domain: {1}
+the var  Name: v95 domain: {1}
+in fc
+recently selected 1245
+the var  Name: v91 domain: {11}
+in fc
+recently selected 1218
+tesst
+the var2  Name: v92 domain: {1,2}
+the var  Name: v92 domain: {1}
+in fc
+recently selected 1226
+tesst
+the var2  Name: v93 domain: {10}
+the var  Name: v93 domain: {10}
+in fc
+recently selected 1233
+the var  Name: v92 domain: {2}
+in fc
+recently selected 1226
+the var  Name: v90 domain: {12}
+in fc
+recently selected 1209
+tesst
+the var2  Name: v91 domain: {2,3,9,11}
+the var  Name: v91 domain: {2}
+in fc
+recently selected 1214
+tesst
+the var2  Name: v92 domain: {1}
+the var  Name: v92 domain: {1}
+in fc
+recently selected 1222
+tesst
+the var2  Name: v93 domain: {10}
+the var  Name: v93 domain: {10}
+in fc
+recently selected 1229
+tesst
+the var2  Name: v94 domain: {11}
+the var  Name: v94 domain: {11}
+in fc
+recently selected 1236
+tesst
+the var2  Name: v95 domain: {3}
+the var  Name: v95 domain: {3}
+in fc
+recently selected 1243
+the var  Name: v91 domain: {3}
+in fc
+recently selected 1214
+tesst
+the var2  Name: v92 domain: {1,2}
+the var  Name: v92 domain: {1}
+in fc
+recently selected 1222
+the var  Name: v92 domain: {2}
+in fc
+recently selected 1222
+tesst
+the var2  Name: v93 domain: {10}
+the var  Name: v93 domain: {10}
+in fc
+recently selected 1229
+tesst
+the var2  Name: v94 domain: {11}
+the var  Name: v94 domain: {11}
+in fc
+recently selected 1236
+tesst
+the var2  Name: v95 domain: {1}
+the var  Name: v95 domain: {1}
+in fc
+recently selected 1243
+the var  Name: v91 domain: {9}
+in fc
+recently selected 1214
+tesst
+the var2  Name: v92 domain: {1,2}
+the var  Name: v92 domain: {1}
+in fc
+recently selected 1220
+tesst
+the var2  Name: v93 domain: {10}
+the var  Name: v93 domain: {10}
+in fc
+recently selected 1227
+tesst
+the var2  Name: v94 domain: {2,11}
+the var  Name: v94 domain: {2}
+in fc
+recently selected 1234
+tesst
+the var2  Name: v95 domain: {3}
+the var  Name: v95 domain: {3}
+in fc
+recently selected 1241
+tesst
+the var2  Name: v96 domain: {11}
+the var  Name: v96 domain: {11}
+in fc
+recently selected 1248
+tesst
+the var2  Name: v97 domain: {8,12}
+the var  Name: v97 domain: {8}
+in fc
+recently selected 1254
+tesst
+the var2  Name: v98 domain: {10}
+the var  Name: v98 domain: {10}
+in fc
+recently selected 1259
+tesst
+the var2  Name: v99 domain: {9}
+the var  Name: v99 domain: {9}
+in fc
+recently selected 1264
+the var  Name: v97 domain: {12}
+in fc
+recently selected 1254
+tesst
+the var2  Name: v98 domain: {8,10}
+the var  Name: v98 domain: {8}
+in fc
+recently selected 1255
+tesst
+the var2  Name: v99 domain: {9,10}
+the var  Name: v99 domain: {9}
+in fc
+recently selected 1259
+the var  Name: v99 domain: {10}
+in fc
+recently selected 1259
+tesst
+the var2  Name: v100 domain: {9}
+the var  Name: v100 domain: {9}
+in fc
+recently selected 1263
+tesst
+the var2  Name: v101 domain: {11}
+the var  Name: v101 domain: {11}
+in fc
+recently selected 1266
+tesst
+the var2  Name: v102 domain: {3}
+the var  Name: v102 domain: {3}
+in fc
+recently selected 1271
+tesst
+the var2  Name: v103 domain: {2}
+the var  Name: v103 domain: {2}
+in fc
+recently selected 1276
+tesst
+the var2  Name: v105 domain: {4,6,7}
+the var  Name: v105 domain: {4}
+in fc
+recently selected 1280
+tesst
+the var2  Name: v106 domain: {6,7}
+the var  Name: v106 domain: {6}
+in fc
+recently selected 1285
+tesst
+the var2  Name: v107 domain: {1}
+the var  Name: v107 domain: {1}
+in fc
+recently selected 1289
+the var  Name: v106 domain: {7}
+in fc
+recently selected 1285
+tesst
+the var2  Name: v107 domain: {1}
+the var  Name: v107 domain: {1}
+in fc
+recently selected 1289
+the var  Name: v105 domain: {6}
+in fc
+recently selected 1280
+tesst
+the var2  Name: v106 domain: {7}
+the var  Name: v106 domain: {7}
+in fc
+recently selected 1285
+tesst
+the var2  Name: v107 domain: {1}
+the var  Name: v107 domain: {1}
+in fc
+recently selected 1289
+tesst
+the var2  Name: v108 domain: {4}
+the var  Name: v108 domain: {4}
+in fc
+recently selected 1294
+tesst
+the var2  Name: v109 domain: {6,7,8}
+the var  Name: v109 domain: {6}
+in fc
+recently selected 1298
+tesst
+the var2  Name: v110 domain: {4,10,11}
+the var  Name: v110 domain: {4}
+in fc
+recently selected 1303
+tesst
+the var2  Name: v111 domain: {2,5,9}
+the var  Name: v111 domain: {2}
+in fc
+recently selected 1308
+the var  Name: v111 domain: {5}
+in fc
+recently selected 1308
+tesst
+the var2  Name: v112 domain: {1,3}
+the var  Name: v112 domain: {1}
+in fc
+recently selected 1313
+tesst
+the var2  Name: v113 domain: {9,12}
+the var  Name: v113 domain: {9}
+in fc
+recently selected 1317
+tesst
+the var2  Name: v114 domain: {8,10}
+the var  Name: v114 domain: {8}
+in fc
+recently selected 1321
+tesst
+the var2  Name: v115 domain: {3,7,11}
+the var  Name: v115 domain: {3}
+in fc
+recently selected 1325
+tesst
+the var2  Name: v116 domain: {2}
+the var  Name: v116 domain: {2}
+in fc
+recently selected 1329
+tesst
+the var2  Name: v117 domain: {7}
+the var  Name: v117 domain: {7}
+in fc
+recently selected 1333
+tesst
+the var2  Name: v118 domain: {11}
+the var  Name: v118 domain: {11}
+in fc
+recently selected 1336
+tesst
+the var2  Name: v119 domain: {12}
+the var  Name: v119 domain: {12}
+in fc
+recently selected 1339
+tesst
+the var2  Name: v120 domain: {10}
+the var  Name: v120 domain: {10}
+in fc
+recently selected 1341
+tesst
+the var2  Name: v121 domain: {7,8}
+the var  Name: v121 domain: {7}
+in fc
+recently selected 1344
+tesst
+the var2  Name: v122 domain: {10,11}
+the var  Name: v122 domain: {10}
+in fc
+recently selected 1347
+tesst
+the var2  Name: v123 domain: {2,9}
+the var  Name: v123 domain: {2}
+in fc
+recently selected 1350
+tesst
+the var2  Name: v124 domain: {3}
+the var  Name: v124 domain: {3}
+in fc
+recently selected 1353
+tesst
+the var2  Name: v125 domain: {5,12}
+the var  Name: v125 domain: {5}
+in fc
+recently selected 1355
+the var  Name: v125 domain: {12}
+in fc
+recently selected 1355
+tesst
+the var2  Name: v126 domain: {1}
+the var  Name: v126 domain: {1}
+in fc
+recently selected 1356
+the var  Name: v123 domain: {9}
+in fc
+recently selected 1350
+tesst
+the var2  Name: v124 domain: {3}
+the var  Name: v124 domain: {3}
+in fc
+recently selected 1353
+tesst
+the var2  Name: v125 domain: {5,12}
+the var  Name: v125 domain: {5}
+in fc
+recently selected 1355
+the var  Name: v125 domain: {12}
+in fc
+recently selected 1355
+tesst
+the var2  Name: v126 domain: {1}
+the var  Name: v126 domain: {1}
+in fc
+recently selected 1356
+the var  Name: v122 domain: {11}
+in fc
+recently selected 1347
+the var  Name: v121 domain: {8}
+in fc
+recently selected 1344
+tesst
+the var2  Name: v122 domain: {10,11}
+the var  Name: v122 domain: {10}
+in fc
+recently selected 1347
+tesst
+the var2  Name: v123 domain: {2,9}
+the var  Name: v123 domain: {2}
+in fc
+recently selected 1350
+the var  Name: v123 domain: {9}
+in fc
+recently selected 1350
+tesst
+the var2  Name: v124 domain: {3}
+the var  Name: v124 domain: {3}
+in fc
+recently selected 1353
+tesst
+the var2  Name: v125 domain: {5,12}
+the var  Name: v125 domain: {5}
+in fc
+recently selected 1355
+the var  Name: v125 domain: {12}
+in fc
+recently selected 1355
+tesst
+the var2  Name: v126 domain: {1}
+the var  Name: v126 domain: {1}
+in fc
+recently selected 1356
+the var  Name: v122 domain: {11}
+in fc
+recently selected 1347
+tesst
+the var2  Name: v123 domain: {2,9}
+the var  Name: v123 domain: {2}
+in fc
+recently selected 1350
+the var  Name: v123 domain: {9}
+in fc
+recently selected 1350
+tesst
+the var2  Name: v124 domain: {3}
+the var  Name: v124 domain: {3}
+in fc
+recently selected 1353
+tesst
+the var2  Name: v125 domain: {5,12}
+the var  Name: v125 domain: {5}
+in fc
+recently selected 1355
+the var  Name: v125 domain: {12}
+in fc
+recently selected 1355
+tesst
+the var2  Name: v126 domain: {1,10}
+the var  Name: v126 domain: {1}
+in fc
+recently selected 1356
+the var  Name: v126 domain: {10}
+in fc
+recently selected 1356
+tesst
+the var2  Name: v127 domain: {7}
+the var  Name: v127 domain: {7}
+in fc
+recently selected 1358
+tesst
+the var2  Name: v128 domain: {4,6}
+the var  Name: v128 domain: {4}
+in fc
+recently selected 1360
+tesst
+the var2  Name: v129 domain: {5}
+the var  Name: v129 domain: {5}
+in fc
+recently selected 1363
+tesst
+the var2  Name: v130 domain: {6}
+the var  Name: v130 domain: {6}
+in fc
+recently selected 1365
+tesst
+the var2  Name: v131 domain: {2}
+the var  Name: v131 domain: {2}
+in fc
+recently selected 1367
+tesst
+the var2  Name: v132 domain: {1}
+the var  Name: v132 domain: {1}
+in fc
+recently selected 1369
+tesst
+the var2  Name: v133 domain: {7}
+the var  Name: v133 domain: {7}
+in fc
+recently selected 1371
+tesst
+the var2  Name: v134 domain: {10}
+the var  Name: v134 domain: {10}
+in fc
+recently selected 1372
+tesst
+the var2  Name: v135 domain: {2}
+the var  Name: v135 domain: {2}
+in fc
+recently selected 1373
+tesst
+the var2  Name: v137 domain: {5}
+the var  Name: v137 domain: {5}
+in fc
+recently selected 1374
+tesst
+the var2  Name: v138 domain: {1}
+the var  Name: v138 domain: {1}
+in fc
+recently selected 1375
+tesst
+the var2  Name: v139 domain: {11}
+the var  Name: v139 domain: {11}
+in fc
+recently selected 1376
+tesst
+the var2  Name: v140 domain: {6}
+the var  Name: v140 domain: {6}
+in fc
+recently selected 1377
+tesst
+the var2  Name: v141 domain: {4}
+the var  Name: v141 domain: {4}
+in fc
+recently selected 1378
+tesst
+the var2  Name: v142 domain: {9}
+the var  Name: v142 domain: {9}
+in fc
+recently selected 1379
+tesst
+the var2  Name: v143 domain: {8}
+the var  Name: v143 domain: {8}
+in fc
+recently selected 1380
+tesst
+the var2  Name: v144 domain: {3}
+the var  Name: v144 domain: {3}
+in fc
+recently selected 1381
+tesst
+p:3	q:4
+1 9 3 4 | 2 5 6 7 | 8 A B C 
+5 6 7 8 | A B 1 C | 2 3 4 9 
+A 2 C B | 3 4 8 9 | 1 5 6 7 
+- - - - - - - - - - - - - - 
+3 1 4 6 | 7 2 A B | 9 C 5 8 
+2 5 8 7 | 1 9 C 3 | B 4 A 6 
+9 C B A | 4 6 5 8 | 3 1 7 2 
+- - - - - - - - - - - - - - 
+B 3 1 2 | 6 7 4 A | C 8 9 5 
+4 7 6 5 | 8 C 9 1 | A 2 3 B 
+C 8 A 9 | B 3 2 5 | 6 7 1 4 
+- - - - - - - - - - - - - - 
+6 4 5 1 | 9 8 3 2 | 7 B C A 
+8 B 9 3 | C A 7 4 | 5 6 2 1 
+7 A 2 C | 5 1 B 6 | 4 9 8 3 
 
-Trail Pushes: 1057
-Backtracks: 60
+Trail Pushes: 10730
+Backtracks: 800
