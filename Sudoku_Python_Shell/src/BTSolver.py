@@ -87,6 +87,11 @@ class BTSolver:
                         # print("val" + str(aNeigh.getValues()))
 
                         if AssignedVal in aNeigh.getValues():
+                            
+                            #check if neighbor is assigned
+                            if aNeigh.isAssigned():
+                                return (RetDict,False)
+
                             #trail push before assign
                             self.trail.push(aNeigh)
 
@@ -120,6 +125,16 @@ class BTSolver:
                 # print("val" + str(aNeigh.getValues()))
 
                 if AssignedVal in aNeigh.getValues():
+
+                    #check if neighbor is assigned
+                    if aNeigh.isAssigned():
+                        return (RetDict,False)
+                    
+                    #check if the domain size is 1
+                    if aNeigh.size() == 1:
+                        return (RetDict,False)
+
+
                     #trail push before assign
                     self.trail.push(aNeigh)
 
@@ -128,25 +143,15 @@ class BTSolver:
 
                     RetDict[aNeigh] = aNeigh.getDomain()
 
-                    if aNeigh.size() == 0:
-                        #undo the trail
-                        # self.trail.undo()
+                    # if aNeigh.size() == 0:
+                    #     #undo the trail
+                    #     # self.trail.undo()
 
-                        # print("false undo")
+                    #     # print("false undo")
 
-                        return (RetDict,False)
+                    #     return (RetDict,False)
              
 
-
-
-
-        # print("vars ")
-                        
-        # print(RetDict)
-                        
-        # print("is true")
-        # self.trail.trailMarker.pop()
-        # print(self.trail.trailMarker)
 
         return (RetDict,True)
 
@@ -304,8 +309,6 @@ class BTSolver:
 
             # Assign the value
             v.assignValue( i )
-
-            # print("the var",v)
 
             self.assignedVar = v
 

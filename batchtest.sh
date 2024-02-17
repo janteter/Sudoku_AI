@@ -9,7 +9,7 @@ for aprefixstr in ${prefixStrArray[@]};do
 
     for ((i=0;i<finalNum;i++));do
         echo "On $i"
-        python3 Sudoku_Python_Shell/src/Main.py FC Sudoku_Generator/${aprefixstr}_${i}.txt >out${aprefixstr}${i}.txt
+        { time python3 Sudoku_Python_Shell/src/Main.py FC Sudoku_Generator/${aprefixstr}_${i}.txt >out${aprefixstr}${i}.txt ; } 2> time${aprefixstr}${i}.txt
 
     done
 
