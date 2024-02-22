@@ -222,7 +222,25 @@ class BTSolver:
         Return: The unassigned variable with the smallest domain
     """
     def getMRV ( self ):
-        return None
+        AllVarList = self.network.getVariables()
+        smallestDomainUnassignedVar = 0
+        smallestDomainSize = 1000 #ask justin what to set the upper limit too. 
+        
+        for aVar in AllVarList:
+
+            if aVar.isAssigned():
+
+                NeighborsOfVar = self.network.getNeighborsOfVariable(aVar)
+
+                for aNeigh in NeighborsOfVar:
+                    
+                    if not aNeigh.isAssigned:
+                        
+                        if aNeigh.size() < smallestDomainSize:
+                            smallestDomainSize = aNeigh.size()
+                            smallestDomainUnassignedVar = aNeigh
+                            
+        return smallestDomainUnassignedVar
 
     """
         Part 2 TODO: Implement the Minimum Remaining Value Heuristic
