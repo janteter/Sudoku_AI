@@ -27,6 +27,7 @@ class BTSolver:
         self.initFCCheck = True
         self.assignedVar = None
 
+
     # ==================================================================
     # Consistency Checks
     # ==================================================================
@@ -223,7 +224,7 @@ class BTSolver:
     """
     def getMRV ( self ):
 
-        print("in the mrv")
+        # print("in the mrv")
         AllVarList = self.network.getVariables()
         smallestDomainUnassignedVar = None
         smallestDomainSize = None #ask justin what to set the upper limit too.  None bro
@@ -287,7 +288,61 @@ class BTSolver:
                 The LCV is first and the MCV is last
     """
     def getValuesLCVOrder ( self, v ):
-        return None
+        # print("In LCV")
+
+        ValueNeighNumAppearDict = dict()
+
+        # print(f" v values {v.getValues()}")
+
+        #initialize dict
+
+        for aDomainVal in v.getValues():
+            ValueNeighNumAppearDict[aDomainVal] = 0
+
+        # print(ValueNeighNumAppearDict)
+
+        #for each neighbor get val
+
+        for aNeighVar in self.network.getNeighborsOfVariable(v):
+            NeighDomainValues = aNeighVar.getValues()
+
+            # print(f"neighbor val {NeighDomainValues}")
+
+
+            if len(ValueNeighNumAppearDict) < len(NeighDomainValues):
+                InnerForIter = ValueNeighNumAppearDict.keys()
+
+                for aKeyinVNNDict in InnerForIter:
+                    # print(f"checking {aKeyinVNNDict}")
+
+                    if aKeyinVNNDict in NeighDomainValues:
+                        #addd 1
+                        ValueNeighNumAppearDict[aKeyinVNNDict] += 1
+
+            else:
+                #case 2
+                InnerForIter = NeighDomainValues
+
+                for aKeyNeighDomain in InnerForIter:
+                    # print(f"checking2 {aKeyNeighDomain}")
+
+                    if aKeyNeighDomain in ValueNeighNumAppearDict:
+                        #addd 1
+                        ValueNeighNumAppearDict[aKeyNeighDomain] += 1
+
+        # print(ValueNeighNumAppearDict)
+
+        LCVVarFromMaxtoMinList = sorted(ValueNeighNumAppearDict, key=ValueNeighNumAppearDict.get, reverse=True)
+
+        # print(LCVVarFromMaxtoMinList)
+
+
+            
+
+
+        
+
+        return LCVVarFromMaxtoMinList
 
     """
          Optional TODO: Implement your own advanced Value Heuristic
@@ -334,7 +389,11 @@ class BTSolver:
             # Assign the value
             v.assignValue( i )
 
+            #store the assigned var in instance var
             self.assignedVar = v
+
+            
+
 
             # Propagate constraints, check consistency, recur
             if self.checkConsistency():
