@@ -222,23 +222,29 @@ class BTSolver:
         Return: The unassigned variable with the smallest domain
     """
     def getMRV ( self ):
+
+        print("in the mrv")
         AllVarList = self.network.getVariables()
-        smallestDomainUnassignedVar = 0
-        smallestDomainSize = 1000 #ask justin what to set the upper limit too. 
+        smallestDomainUnassignedVar = None
+        smallestDomainSize = None #ask justin what to set the upper limit too.  None bro
         
         for aVar in AllVarList:
 
-            if aVar.isAssigned():
+            if not aVar.isAssigned():
 
-                NeighborsOfVar = self.network.getNeighborsOfVariable(aVar)
+                aVarDomainSize = aVar.size()
 
-                for aNeigh in NeighborsOfVar:
-                    
-                    if not aNeigh.isAssigned:
-                        
-                        if aNeigh.size() < smallestDomainSize:
-                            smallestDomainSize = aNeigh.size()
-                            smallestDomainUnassignedVar = aNeigh
+                # print(f"testing var {aVar} {aVarDomainSize}")
+                
+
+                if (smallestDomainUnassignedVar is None) or (aVarDomainSize < smallestDomainSize):
+                    # print("updating the smallest")
+                    smallestDomainUnassignedVar = aVar
+                    smallestDomainSize = aVarDomainSize
+
+                
+
+                
                             
         return smallestDomainUnassignedVar
 
