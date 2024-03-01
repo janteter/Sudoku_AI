@@ -304,31 +304,34 @@ class BTSolver:
         #for each neighbor get val
 
         for aNeighVar in self.network.getNeighborsOfVariable(v):
-            NeighDomainValues = aNeighVar.getValues()
+            if not aNeighVar.isAssigned():
+                
 
-            # print(f"neighbor val {NeighDomainValues}")
+                NeighDomainValues = aNeighVar.getValues()
+
+                # print(f"neighbor val {NeighDomainValues}")
 
 
-            # if len(ValueNeighNumAppearDict) < len(NeighDomainValues):
-            InnerForIter = ValueNeighNumAppearDict.keys()
+                # if len(ValueNeighNumAppearDict) < len(NeighDomainValues):
+                InnerForIter = ValueNeighNumAppearDict.keys()
 
-            for aKeyinVNNDict in InnerForIter:
-                # print(f"checking {aKeyinVNNDict}")
+                for aKeyinVNNDict in InnerForIter:
+                    # print(f"checking {aKeyinVNNDict}")
 
-                if aKeyinVNNDict in NeighDomainValues:
-                    #addd 1
-                    ValueNeighNumAppearDict[aKeyinVNNDict] += 1
-
-            else:
-                #case 2
-                InnerForIter = NeighDomainValues
-
-                for aKeyNeighDomain in InnerForIter:
-                    # print(f"checking2 {aKeyNeighDomain}")
-
-                    if aKeyNeighDomain in ValueNeighNumAppearDict:
+                    if aKeyinVNNDict in NeighDomainValues:
                         #addd 1
-                        ValueNeighNumAppearDict[aKeyNeighDomain] += 1
+                        ValueNeighNumAppearDict[aKeyinVNNDict] += 1
+
+                else:
+                    #case 2
+                    InnerForIter = NeighDomainValues
+
+                    for aKeyNeighDomain in InnerForIter:
+                        # print(f"checking2 {aKeyNeighDomain}")
+
+                        if aKeyNeighDomain in ValueNeighNumAppearDict:
+                            #addd 1
+                            ValueNeighNumAppearDict[aKeyNeighDomain] += 1
 
         # print(ValueNeighNumAppearDict)
 
