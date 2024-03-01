@@ -309,15 +309,15 @@ class BTSolver:
             # print(f"neighbor val {NeighDomainValues}")
 
 
-            if len(ValueNeighNumAppearDict) < len(NeighDomainValues):
-                InnerForIter = ValueNeighNumAppearDict.keys()
+            # if len(ValueNeighNumAppearDict) < len(NeighDomainValues):
+            InnerForIter = ValueNeighNumAppearDict.keys()
 
-                for aKeyinVNNDict in InnerForIter:
-                    # print(f"checking {aKeyinVNNDict}")
+            for aKeyinVNNDict in InnerForIter:
+                # print(f"checking {aKeyinVNNDict}")
 
-                    if aKeyinVNNDict in NeighDomainValues:
-                        #addd 1
-                        ValueNeighNumAppearDict[aKeyinVNNDict] += 1
+                if aKeyinVNNDict in NeighDomainValues:
+                    #addd 1
+                    ValueNeighNumAppearDict[aKeyinVNNDict] += 1
 
             else:
                 #case 2
@@ -332,17 +332,17 @@ class BTSolver:
 
         # print(ValueNeighNumAppearDict)
 
-        LCVVarFromMaxtoMinList = sorted(ValueNeighNumAppearDict, key=ValueNeighNumAppearDict.get, reverse=True)
+       
 
-        # print(LCVVarFromMaxtoMinList)
+        # print("test sort")
+        ReturnLCVMinToMaxList = [aval[0] for aval in sorted(ValueNeighNumAppearDict.items(), key=lambda x: (x[1],x[0]))]
+        # print(ReturnLCVMinToMaxList)
+
+       
 
 
-            
 
-
-        
-
-        return LCVVarFromMaxtoMinList
+        return ReturnLCVMinToMaxList
 
     """
          Optional TODO: Implement your own advanced Value Heuristic
