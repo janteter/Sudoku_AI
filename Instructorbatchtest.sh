@@ -16,6 +16,9 @@ for aArgParam in "${argsParamArray[@]}";do
 
     echo "ARGUMENT PARAM Section(Heur Used): ${aArgParam}"
 
+    mkdir out${trimmed_string}
+    mkdir time${trimmed_string}
+
     for atestBoardPath in "$search_dir"/*;do
 
         fileNameWExt=$(basename ${atestBoardPath})
@@ -28,8 +31,9 @@ for aArgParam in "${argsParamArray[@]}";do
         #     echo "On $i"
 
         # echo "python3 Sudoku_Python_Shell/src/Main.py ${aArgParam} ${atestBoardPath} >out${trimmed_string}${fileName}.txt"
+        
 
-        { time python3 Sudoku_Python_Shell/src/Main.py ${aArgParam} ${atestBoardPath} >out${trimmed_string}${fileName}.txt ; } 2> time${trimmed_string}${fileName}.txt
+        { time python3 Sudoku_Python_Shell/src/Main.py ${aArgParam} ${atestBoardPath} >out${trimmed_string}/out${trimmed_string}${fileName}.txt ; } 2> time${trimmed_string}/time${trimmed_string}${fileName}.txt
 
         # done
 
