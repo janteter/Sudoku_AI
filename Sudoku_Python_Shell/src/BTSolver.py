@@ -312,15 +312,15 @@ class BTSolver:
                 # print(f"neighbor val {NeighDomainValues}")
 
 
-                # if len(ValueNeighNumAppearDict) < len(NeighDomainValues):
-                InnerForIter = ValueNeighNumAppearDict.keys()
+                if len(ValueNeighNumAppearDict) < len(NeighDomainValues):
+                    InnerForIter = ValueNeighNumAppearDict.keys()
 
-                for aKeyinVNNDict in InnerForIter:
-                    # print(f"checking {aKeyinVNNDict}")
+                    for aKeyinVNNDict in InnerForIter:
+                        # print(f"checking {aKeyinVNNDict}")
 
-                    if aKeyinVNNDict in NeighDomainValues:
-                        #addd 1
-                        ValueNeighNumAppearDict[aKeyinVNNDict] += 1
+                        if aKeyinVNNDict in NeighDomainValues:
+                            #addd 1
+                            ValueNeighNumAppearDict[aKeyinVNNDict] += 1
 
                 else:
                     #case 2
