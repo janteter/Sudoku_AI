@@ -161,3 +161,7 @@ cython_debug/
 
 #ignore zips
 *.zip
+
+#ignore out and time dirs
+out*/
+time*/
