@@ -192,8 +192,139 @@ class BTSolver:
 		        that were ASSIGNED during the whole NorvigCheck propagation, and mapped to the values that they were assigned.
                 The bool is true if assignment is consistent, false otherwise.
     """
+    def _propAllChange(self):
+
+        pass
+
+
     def norvigCheck ( self ):
-        return ({}, False)
+        # return ({}, False)
+
+        print("in norvig check")
+        RetDict = dict()
+
+        #part 1 FC which is constrain prop
+        AllVarList = self.network.getVariables()
+
+        for aVar in AllVarList:
+            # print(aVar.isAssigned())
+            if aVar.isAssigned():
+
+                # if self.assignedVar is None:
+                #     return ({},True)
+
+                #variable is assigned perf FC
+                AssignedVal = aVar.getAssignment()
+                # print("vAR" + str(aVar))
+
+                NeighborOfVar = self.network.getNeighborsOfVariable(aVar)
+                # print("neigh" + str(NeighborOfVar))
+
+                for aNeigh in NeighborOfVar:
+                    # print("neigh " + str(aNeigh))
+                    # print("val" + str(aNeigh.getValues()))
+
+                    if AssignedVal in aNeigh.getValues():
+                        
+                        #check if neighbor is assigned
+                        if aNeigh.isAssigned():
+                            return (RetDict,False)
+
+                        #trail push before assign
+                        self.trail.push(aNeigh)
+
+                        #remove the assignedval from the neighbor
+                        aNeigh.removeValueFromDomain(AssignedVal)
+
+                        RetDict[aNeigh] = aNeigh.getDomain()
+
+                        if aNeigh.size() == 0:
+                            #undo the trail
+                            # self.trail.undo()
+
+                            # print("false undo")
+
+                            return (RetDict,False)
+        
+                        
+        #part 2 if contraint has one possible value then assign it that
+        for aVar in AllVarList:
+            if aVar.isAssigned() is False and aVar.size() == 1:
+                print(aVar,aVar.isAssigned())
+
+        #test
+        # while True:
+
+            # countNumUnassignedOneVar = 0
+
+        for aVar in AllVarList:
+
+            if aVar.isAssigned() is False and aVar.size() == 1:
+                # countNumUnassignedOneVar += 1
+
+                print(aVar)
+                #assign the var
+                ValueToBAssign = aVar.getValues()[0]
+                # print(aVar.getValues()[0])
+
+                #push before assign
+                self.trail.push(aVar)
+                
+                #assign a value
+                aVar.assignValue(ValueToBAssign)
+
+                #do constraint prop
+                
+
+                #variable is assigned perf FC
+                AssignedVal = ValueToBAssign
+                # print("vAR" + str(aVar))
+
+                NeighborOfVar = self.network.getNeighborsOfVariable(aVar)
+                # print("neigh" + str(NeighborOfVar))
+
+                for aNeigh in NeighborOfVar:
+                    # print("neigh " + str(aNeigh))
+                    # print("val" + str(aNeigh.getValues()))
+
+                    if AssignedVal in aNeigh.getValues():
+
+                        #check if neighbor is assigned
+                        if aNeigh.isAssigned():
+                            print("print error neigh is assigned")
+                            return (RetDict,False)
+
+                        if aNeigh.size() == 1:
+                            print("Error in removing val one check")
+                            return (RetDict,False)
+                        
+
+
+                        #trail push before assign
+                        self.trail.push(aNeigh)
+
+                        #remove the assignedval from the neighbor
+                        aNeigh.removeValueFromDomain(AssignedVal)
+
+                        RetDict[aNeigh] = aNeigh.getDomain()
+
+                        # if aNeigh.size() == 0:
+                        #     print("Error in removing val")
+                        #     #undo the trail
+                        #     # self.trail.undo()
+
+                        #     # print("false undo")
+
+                            # return (RetDict,False)
+                            
+            # print("final count numvarunass")
+            # print(countNumUnassignedOneVar)
+            # if countNumUnassignedOneVar == 0:
+            #     break
+
+        return ({},True)
+
+
 
     """
          Optional TODO: Implement your own advanced Constraint Propagation
