@@ -301,83 +301,7 @@ class BTSolver:
         
                         
         #part 2 if contraint has one possible value then assign it that
-        # for aVar in AllVarList:
-        #     if aVar.isAssigned() is False and aVar.size() == 1:
-        #         print(aVar,aVar.isAssigned())
-
-        # #test my norvv?
-        # while True:
-
-        #     countNumUnassignedOneVar = 0
-
-        #     for aVar in AllVarList:
-
-        #         if aVar.isAssigned() is False and aVar.size() == 1:
-        #             countNumUnassignedOneVar += 1
-
-        #             # print(aVar)
-        #             #assign the var
-        #             ValueToBAssign = aVar.getValues()[0]
-        #             # print(aVar.getValues()[0])
-
-        #             #push before assign
-        #             self.trail.push(aVar)
-                    
-        #             #assign a value
-        #             aVar.assignValue(ValueToBAssign)
-
-        #             #do constraint prop
-                    
-
-        #             #variable is assigned perf FC
-        #             AssignedVal = ValueToBAssign
-        #             # print("vAR" + str(aVar))
-
-        #             NeighborOfVar = self.network.getNeighborsOfVariable(aVar)
-        #             # print("neigh" + str(NeighborOfVar))
-
-        #             for aNeigh in NeighborOfVar:
-        #                 # print("neigh " + str(aNeigh))
-        #                 # print("val" + str(aNeigh.getValues()))
-
-        #                 if AssignedVal in aNeigh.getValues():
-
-        #                     #check if neighbor is assigned
-        #                     if aNeigh.isAssigned():
-        #                         # print("print error neigh is assigned")
-        #                         return (RetDict,False)
-        #                         # self.trail.undo()
-
-        #                     if aNeigh.size() == 1:
-        #                         # print("Error in removing val one check")
-        #                         return (RetDict,False)
-        #                         # self.trail.undo()
-                            
-
-
-        #                     #trail push before assign
-        #                     self.trail.push(aNeigh)
-
-        #                     #remove the assignedval from the neighbor
-        #                     aNeigh.removeValueFromDomain(AssignedVal)
-
-        #                     RetDict[aNeigh] = aNeigh.getDomain()
-
-        #                     # if aNeigh.size() == 0:
-        #                     #     print("Error in removing val")
-        #                     #     #undo the trail
-        #                     #     # self.trail.undo()
-
-        #                     #     # print("false undo")
-
-        #                         # return (RetDict,False)
-                            
-        #     # print("final count numvarunass")
-        #     # print(countNumUnassignedOneVar)
-        #     if countNumUnassignedOneVar == 0:
-        #         break
-
-        # return (RetDict,True)
+        
 
         #norvig v2
         TheN = self.gameboard.N
@@ -391,27 +315,6 @@ class BTSolver:
 
             TheConstraintUnitVars = aUnit.vars
 
-            # print(TheConstraintUnitVars)
-
-            
-
-
-
-            
-
-            # print(aUnit.vars[0])
-
-            # for aI in range(TheN):
-            #     # print("ai")
-            #     # print(aI)
-            #     # print(TheConstraintUnitVars[aI].getValues())
-            #     for aValue in TheConstraintUnitVars[aI].getValues():
-            #         # print("inside")
-            #         # print(aValue)
-
-            #         # print(TheVarDomaincounter)
-            #         #increment counter[value]
-            #         TheVarDomaincounter[aValue-1] += 1
 
             # print("part 1")
 
@@ -422,7 +325,6 @@ class BTSolver:
                     # print(aVariable)
 
                     for aValue in aVariable.getValues():
-                        #increment counter[value]
                         TheVarDomaincounter[aValue-1] += 1
 
             # print(TheVarDomaincounter)
@@ -485,46 +387,6 @@ class BTSolver:
                                 aNeigh.removeValueFromDomain(AssignedVal)
 
                                 RetDict[aNeigh] = aNeigh.getDomain()
-
-                                # if aNeigh.size() == 0:
-                                #     print("Error in removing val")
-                                #     #undo the trail
-                                #     # self.trail.undo()
-
-                                #     # print("false undo")
-
-                                    # return (RetDict,False)
-
-
-            #second part
-            # for aindex,avalue in enumerate(TheVarDomaincounter):
-            #     if avalue == 1:
-            #         # print("index where val 1 " + str(aindex))
-            #         TarValue = int(aOneIndex) + 1
-
-            #         for aVariable in TheConstraintUnitVars:
-            #             if (aindex + 1) in aVariable.getValues():
-            #                 print("assigning a var!!!!!!!!!!!!!!!!!!!!!!!")
-            #                 #push before assign
-            #                 self.trail.push(aVariable)
-
-            #                 #assign 
-            #                 aVariable.assignValue(aindex + 1)
-                        
-            # for aIndex in range(TheN):
-        
-            #     if TheVarDomaincounter[aIndex] == 1:
-            #         for aVar in TheConstraintUnitVars:
-            #             if (aIndex + 1) in aVar.getValues():
-            #                 self.trail.push(aVar)
-            #                 print("assign")
-
-            #                 #assign 
-            #                 aVar.assignValue(aIndex + 1)
-
-
-
-            
 
 
         # print(self.network.isConsistent())
