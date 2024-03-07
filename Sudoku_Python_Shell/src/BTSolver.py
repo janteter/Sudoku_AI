@@ -25,6 +25,7 @@ class BTSolver:
 
         #my mods
         self.initFCCheck = True
+        self.initNORCheck = True
         self.assignedVar = None
 
 
@@ -192,10 +193,6 @@ class BTSolver:
 		        that were ASSIGNED during the whole NorvigCheck propagation, and mapped to the values that they were assigned.
                 The bool is true if assignment is consistent, false otherwise.
     """
-    def _propAllChange(self):
-
-        pass
-
 
     def norvigCheck ( self ):
         # return ({}, False)
@@ -205,8 +202,8 @@ class BTSolver:
 
         AllVarList = self.network.getVariables()
 
-        if self.initFCCheck:
-            self.initFCCheck = False
+        if self.initNORCheck:
+            self.initNORCheck = False
 
             #part 1 FC which is constrain prop
            
