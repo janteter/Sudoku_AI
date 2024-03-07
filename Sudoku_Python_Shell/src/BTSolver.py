@@ -7,6 +7,9 @@ import ConstraintNetwork
 import time
 import random
 
+#my imports
+import numpy as np
+
 class BTSolver:
 
     # ==================================================================
@@ -302,79 +305,231 @@ class BTSolver:
         #     if aVar.isAssigned() is False and aVar.size() == 1:
         #         print(aVar,aVar.isAssigned())
 
-        #test
-        while True:
+        # #test my norvv?
+        # while True:
 
-            countNumUnassignedOneVar = 0
+        #     countNumUnassignedOneVar = 0
 
-            for aVar in AllVarList:
+        #     for aVar in AllVarList:
 
-                if aVar.isAssigned() is False and aVar.size() == 1:
-                    countNumUnassignedOneVar += 1
+        #         if aVar.isAssigned() is False and aVar.size() == 1:
+        #             countNumUnassignedOneVar += 1
 
-                    # print(aVar)
-                    #assign the var
-                    ValueToBAssign = aVar.getValues()[0]
-                    # print(aVar.getValues()[0])
+        #             # print(aVar)
+        #             #assign the var
+        #             ValueToBAssign = aVar.getValues()[0]
+        #             # print(aVar.getValues()[0])
 
-                    #push before assign
-                    self.trail.push(aVar)
+        #             #push before assign
+        #             self.trail.push(aVar)
                     
-                    #assign a value
-                    aVar.assignValue(ValueToBAssign)
+        #             #assign a value
+        #             aVar.assignValue(ValueToBAssign)
 
-                    #do constraint prop
+        #             #do constraint prop
                     
 
-                    #variable is assigned perf FC
-                    AssignedVal = ValueToBAssign
-                    # print("vAR" + str(aVar))
+        #             #variable is assigned perf FC
+        #             AssignedVal = ValueToBAssign
+        #             # print("vAR" + str(aVar))
 
-                    NeighborOfVar = self.network.getNeighborsOfVariable(aVar)
-                    # print("neigh" + str(NeighborOfVar))
+        #             NeighborOfVar = self.network.getNeighborsOfVariable(aVar)
+        #             # print("neigh" + str(NeighborOfVar))
 
-                    for aNeigh in NeighborOfVar:
-                        # print("neigh " + str(aNeigh))
-                        # print("val" + str(aNeigh.getValues()))
+        #             for aNeigh in NeighborOfVar:
+        #                 # print("neigh " + str(aNeigh))
+        #                 # print("val" + str(aNeigh.getValues()))
 
-                        if AssignedVal in aNeigh.getValues():
+        #                 if AssignedVal in aNeigh.getValues():
 
-                            #check if neighbor is assigned
-                            if aNeigh.isAssigned():
-                                # print("print error neigh is assigned")
-                                return (RetDict,False)
-                                # self.trail.undo()
+        #                     #check if neighbor is assigned
+        #                     if aNeigh.isAssigned():
+        #                         # print("print error neigh is assigned")
+        #                         return (RetDict,False)
+        #                         # self.trail.undo()
 
-                            if aNeigh.size() == 1:
-                                # print("Error in removing val one check")
-                                return (RetDict,False)
-                                # self.trail.undo()
+        #                     if aNeigh.size() == 1:
+        #                         # print("Error in removing val one check")
+        #                         return (RetDict,False)
+        #                         # self.trail.undo()
                             
 
 
-                            #trail push before assign
-                            self.trail.push(aNeigh)
+        #                     #trail push before assign
+        #                     self.trail.push(aNeigh)
 
-                            #remove the assignedval from the neighbor
-                            aNeigh.removeValueFromDomain(AssignedVal)
+        #                     #remove the assignedval from the neighbor
+        #                     aNeigh.removeValueFromDomain(AssignedVal)
 
-                            RetDict[aNeigh] = aNeigh.getDomain()
+        #                     RetDict[aNeigh] = aNeigh.getDomain()
 
-                            # if aNeigh.size() == 0:
-                            #     print("Error in removing val")
-                            #     #undo the trail
-                            #     # self.trail.undo()
+        #                     # if aNeigh.size() == 0:
+        #                     #     print("Error in removing val")
+        #                     #     #undo the trail
+        #                     #     # self.trail.undo()
 
-                            #     # print("false undo")
+        #                     #     # print("false undo")
 
-                                # return (RetDict,False)
+        #                         # return (RetDict,False)
                             
-            # print("final count numvarunass")
-            # print(countNumUnassignedOneVar)
-            if countNumUnassignedOneVar == 0:
-                break
+        #     # print("final count numvarunass")
+        #     # print(countNumUnassignedOneVar)
+        #     if countNumUnassignedOneVar == 0:
+        #         break
 
-        return (RetDict,True)
+        # return (RetDict,True)
+
+        #norvig v2
+        TheN = self.gameboard.N
+        # print(TheN)
+
+        
+
+        for aUnit in self.network.getConstraints():
+            TheVarDomaincounter = np.zeros((TheN,), dtype=int)
+            # print("Aunit " + str(aUnit))
+
+            TheConstraintUnitVars = aUnit.vars
+
+            # print(TheConstraintUnitVars)
+
+            
+
+
+
+            
+
+            # print(aUnit.vars[0])
+
+            # for aI in range(TheN):
+            #     # print("ai")
+            #     # print(aI)
+            #     # print(TheConstraintUnitVars[aI].getValues())
+            #     for aValue in TheConstraintUnitVars[aI].getValues():
+            #         # print("inside")
+            #         # print(aValue)
+
+            #         # print(TheVarDomaincounter)
+            #         #increment counter[value]
+            #         TheVarDomaincounter[aValue-1] += 1
+
+            # print("part 1")
+
+            for aVariable in TheConstraintUnitVars:
+
+                if aVariable.isAssigned() is False:
+                
+                    # print(aVariable)
+
+                    for aValue in aVariable.getValues():
+                        #increment counter[value]
+                        TheVarDomaincounter[aValue-1] += 1
+
+            # print(TheVarDomaincounter)
+
+            #second subpart
+            # print("second subpart")
+
+            TheNumArreqOne = np.where(TheVarDomaincounter == 1)[0]
+            
+            # print(np.where(TheVarDomaincounter == 1)[0])
+
+            for aOneIndex in TheNumArreqOne:
+                # print(aOneIndex)
+                #find the domain in the var
+                TarValue = int(aOneIndex) + 1
+
+                for aVar in TheConstraintUnitVars:
+                    if TarValue in aVar.getValues():
+                        #found var and the val then assign it
+                        #push before assign
+                        self.trail.push(aVar)
+
+                        #assign value to var
+                        aVar.assignValue(TarValue)
+
+                        RetDict[aVar] = aVar.getDomain()
+
+                        #propagate changes
+
+                        #variable is assigned perf FC
+                        AssignedVal = TarValue
+                        # print("vAR" + str(aVar))
+
+                        NeighborOfVar = self.network.getNeighborsOfVariable(aVar)
+                        # print("neigh" + str(NeighborOfVar))
+
+                        for aNeigh in NeighborOfVar:
+                            # print("neigh " + str(aNeigh))
+                            # print("val" + str(aNeigh.getValues()))
+
+                            if AssignedVal in aNeigh.getValues():
+
+                                #check if neighbor is assigned
+                                if aNeigh.isAssigned():
+                                    # print("print error neigh is assigned")
+                                    return (RetDict,False)
+                                    # self.trail.undo()
+
+                                if aNeigh.size() == 1:
+                                    # print("Error in removing val one check")
+                                    return (RetDict,False)
+                                    # self.trail.undo()
+                                
+
+
+                                #trail push before assign
+                                self.trail.push(aNeigh)
+
+                                #remove the assignedval from the neighbor
+                                aNeigh.removeValueFromDomain(AssignedVal)
+
+                                RetDict[aNeigh] = aNeigh.getDomain()
+
+                                # if aNeigh.size() == 0:
+                                #     print("Error in removing val")
+                                #     #undo the trail
+                                #     # self.trail.undo()
+
+                                #     # print("false undo")
+
+                                    # return (RetDict,False)
+
+
+            #second part
+            # for aindex,avalue in enumerate(TheVarDomaincounter):
+            #     if avalue == 1:
+            #         # print("index where val 1 " + str(aindex))
+            #         TarValue = int(aOneIndex) + 1
+
+            #         for aVariable in TheConstraintUnitVars:
+            #             if (aindex + 1) in aVariable.getValues():
+            #                 print("assigning a var!!!!!!!!!!!!!!!!!!!!!!!")
+            #                 #push before assign
+            #                 self.trail.push(aVariable)
+
+            #                 #assign 
+            #                 aVariable.assignValue(aindex + 1)
+                        
+            # for aIndex in range(TheN):
+        
+            #     if TheVarDomaincounter[aIndex] == 1:
+            #         for aVar in TheConstraintUnitVars:
+            #             if (aIndex + 1) in aVar.getValues():
+            #                 self.trail.push(aVar)
+            #                 print("assign")
+
+            #                 #assign 
+            #                 aVar.assignValue(aIndex + 1)
+
+
+
+            
+
+
+        # print(self.network.isConsistent())
+        return (RetDict,self.network.isConsistent())
+
 
 
 
