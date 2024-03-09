@@ -2,7 +2,7 @@
 echo "begining batch test for Justin Boards"
 finalNum=50
 prefixStrArray=("expert")
-argsParam="MRV LCV FC"
+argsParam="NOR MRV LCV"
 
 trimmed_string=$(echo $argsParam | tr -d ' ')
 
