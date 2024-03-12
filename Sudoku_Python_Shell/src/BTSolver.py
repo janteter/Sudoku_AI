@@ -390,7 +390,7 @@ class BTSolver:
 
 
         # print(self.network.isConsistent())
-        return (RetDict,self.network.isConsistent())
+        return (RetDict,self.assignmentsCheck())
 
 
 
