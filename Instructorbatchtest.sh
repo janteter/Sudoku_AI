@@ -6,7 +6,7 @@ finalNum=9
 search_dir=Sudoku_Generator/InstructorBoards
 #"intermediate_board" "hard_board" "z_expert_board"
 prefixStrArray=("easy_board" "intermediate_board" "hard_board" "z_expert_board")
-argsParamArray=("NOR MRV LCV")
+argsParamArray=("NOR MAD LCV")
 
 
 

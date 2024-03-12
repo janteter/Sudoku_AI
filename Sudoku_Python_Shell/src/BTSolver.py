@@ -459,59 +459,118 @@ class BTSolver:
     """
     def MRVwithTieBreaker ( self ):
         
-        AllVarList = self.network.getVariables()
-        smallestDomainUnassignedVar = None
-        smallestDomainSize = None 
+        # AllVarList = self.network.getVariables()
+        # smallestDomainUnassignedVar = None
+        # smallestDomainSize = None 
         
-        listMrv = []
+        # listMrv = []
+
+        # for aVar in AllVarList:
+
+        #     if not aVar.isAssigned():
+
+        #         aVarDomainSize = aVar.size()
+
+        #         if (smallestDomainUnassignedVar is None) or (aVarDomainSize < smallestDomainSize):
+        #             smallestDomainUnassignedVar = aVar
+        #             smallestDomainSize = aVarDomainSize
+        #             listMrv.clear()
+        #             listMrv.append(aVar)
+
+        #         elif aVarDomainSize == smallestDomainSize:
+        #             listMrv.append(aVar)
+        # print("Finished with MRV")
+        # print(listMrv)
+
+        # largestDegreeList = []
+        # largestDegree = None 
+        # for var in listMrv:
+        #     print("in degree for loop")
+        #     # get neighbors of variables 
+        #     NeighborOfVar = self.network.getNeighborsOfVariable(var)
+        #     #start @ 0
+        #     degreeCount = 0
+            
+        #     for neighbor in NeighborOfVar:
+
+        #         print("in neighbor for loop")
+        #         if not neighbor.isAssigned():
+        #             degreeCount+=1
+                
+        #         print("degreeCount:" +  str(degreeCount))
+                
+        #     if largestDegree is None:
+        #         largestDegreeList.append(var)
+        #         largestDegree = degreeCount
+
+        #     elif largestDegree < degreeCount:
+        #         largestDegreeList.clear()
+        #         largestDegreeList.append(var)
+        #         largestDegree = degreeCount
+
+        #     elif largestDegree == degreeCount:
+        #         largestDegreeList.append(var)
+
+        #first check MRV
+        #second check Degree
+
+        AllVarList = self.network.getVariables()
+        smallestMrvDomain = float("inf")
+        largestDegree = float("-inf")
+
+        myVar = None
+
+        MRV_DEG_LIST = list()
 
         for aVar in AllVarList:
-
+            aVarDomainSize = aVar.size()
+            
             if not aVar.isAssigned():
 
-                aVarDomainSize = aVar.size()
-
-                if (smallestDomainUnassignedVar is None) or (aVarDomainSize < smallestDomainSize):
-                    smallestDomainUnassignedVar = aVar
-                    smallestDomainSize = aVarDomainSize
-                    listMrv.clear()
-                    listMrv.append(aVar)
-
-                elif aVarDomainSize == smallestDomainSize:
-                    listMrv.append(aVar)
-        print("Finished with MRV")
-        print(listMrv)
-
-        largestDegreeList = []
-        largestDegree = None 
-        for var in listMrv:
-            print("in degree for loop")
-            # get neighbors of variables 
-            NeighborOfVar = self.network.getNeighborsOfVariable(var)
-            #start @ 0
-            degreeCount = 0
+                
             
-            for neighbor in NeighborOfVar:
+                NeighborOfVar = self.network.getNeighborsOfVariable(aVar)
 
-                print("in neighbor for loop")
-                if not neighbor.isAssigned():
-                    degreeCount+=1
+                degree = 0
+                for neighbor in NeighborOfVar:
+                    if not neighbor.isAssigned():
+                        degree += 1
                 
-                print("degreeCount:" +  str(degreeCount))
+                if smallestMrvDomain is None:
+                    # print("smallest mrv is none")
+                    MRV_DEG_LIST.append(aVar)
+                    smallestMrvDomain = aVarDomainSize
+                    largestDegree = degree
+                elif aVar.size() == smallestMrvDomain and degree > largestDegree:
+                    # print("vardoman == smallestmrv")
+                    myVar = aVar
+                    MRV_DEG_LIST = list()
+                    MRV_DEG_LIST.append(aVar)
+                    largestDegree = degree
                 
-            if largestDegree is None:
-                largestDegreeList.append(var)
-                largestDegree = degreeCount
 
-            elif largestDegree < degreeCount:
-                largestDegreeList.clear()
-                largestDegreeList.append(var)
-                largestDegree = degreeCount
+                elif aVar.size() < smallestMrvDomain:
+                    # print("vardoman < smallestmrv")
+                    myVar = aVar
+                    MRV_DEG_LIST = list()
+                    MRV_DEG_LIST.append(aVar)
+                    smallestMrvDomain = aVar.size()
+                    largestDegree = degree
+                elif aVarDomainSize == smallestMrvDomain and degree == largestDegree:
+                    MRV_DEG_LIST.append(aVar)
 
-            elif largestDegree == degreeCount:
-                largestDegreeList.append(var)
+        # print(myVar)
 
-        return largestDegreeList
+        retlist = list()
+        retlist.append(myVar)
+
+
+
+
+        # print("mrv degree list")
+        # print(MRV_DEG_LIST)
+
+        return retlist
 
     """
          Optional TODO: Implement your own advanced Variable Heuristic
