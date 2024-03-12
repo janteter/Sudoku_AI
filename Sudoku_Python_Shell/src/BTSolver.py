@@ -458,7 +458,60 @@ class BTSolver:
                 If there is only one variable, return the list of size 1 containing that variable.
     """
     def MRVwithTieBreaker ( self ):
-        return None
+        
+        AllVarList = self.network.getVariables()
+        smallestDomainUnassignedVar = None
+        smallestDomainSize = None 
+        
+        listMrv = []
+
+        for aVar in AllVarList:
+
+            if not aVar.isAssigned():
+
+                aVarDomainSize = aVar.size()
+
+                if (smallestDomainUnassignedVar is None) or (aVarDomainSize < smallestDomainSize):
+                    smallestDomainUnassignedVar = aVar
+                    smallestDomainSize = aVarDomainSize
+                    listMrv.clear()
+                    listMrv.append(aVar)
+
+                elif aVarDomainSize == smallestDomainSize:
+                    listMrv.append(aVar)
+        print("Finished with MRV")
+        print(listMrv)
+
+        largestDegreeList = []
+        largestDegree = None 
+        for var in listMrv:
+            print("in degree for loop")
+            # get neighbors of variables 
+            NeighborOfVar = self.network.getNeighborsOfVariable(var)
+            #start @ 0
+            degreeCount = 0
+            
+            for neighbor in NeighborOfVar:
+
+                print("in neighbor for loop")
+                if not neighbor.isAssigned():
+                    degreeCount+=1
+                
+                print("degreeCount:" +  str(degreeCount))
+                
+            if largestDegree is None:
+                largestDegreeList.append(var)
+                largestDegree = degreeCount
+
+            elif largestDegree < degreeCount:
+                largestDegreeList.clear()
+                largestDegreeList.append(var)
+                largestDegree = degreeCount
+
+            elif largestDegree == degreeCount:
+                largestDegreeList.append(var)
+
+        return largestDegreeList
 
     """
          Optional TODO: Implement your own advanced Variable Heuristic
