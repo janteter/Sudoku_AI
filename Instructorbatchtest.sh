@@ -3,7 +3,7 @@ echo "begining Instructor batch test"
 
 #Variables
 finalNum=9
-search_dir=Sudoku_Generator/InstructorBoards
+search_dir=Sudoku_Generator/FinalEvalBoards
 #"intermediate_board" "hard_board" "z_expert_board"
 prefixStrArray=("easy_board" "intermediate_board" "hard_board" "z_expert_board")
 argsParamArray=("NOR MAD LCV")
